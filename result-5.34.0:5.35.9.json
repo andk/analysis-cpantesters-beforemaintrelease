@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.35.9":81680,
-      "datetime":"2022-02-26T13:57:42",
+      "5.35.9":86277,
+      "datetime":"2022-02-27T13:57:38",
       "perls":[
          "5.34.0",
          "5.35.9"
       ],
-      "totalrcdists":18232
+      "totalrcdists":20674
    },
    "!CAND":{
       "API-Plesk":{
@@ -20,24 +20,13 @@
             }
          }
       },
-      "Acme-BeyondPerl-ToSQL":{
-         "0.01":{
-            "5.34.0":{
-               "fail":1,
-               "pass":1
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
       "Acme-Dot":{
          "1.10":{
             "5.34.0":{
-               "pass":2
+               "pass":14
             },
             "5.35.9":{
-               "fail":5,
+               "fail":9,
                "pass":4
             }
          }
@@ -64,17 +53,6 @@
             }
          }
       },
-      "Algorithm-LBFGS":{
-         "0.16":{
-            "5.34.0":{
-               "fail":1,
-               "pass":10
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
       "Apache-BabyConnect":{
          "0.93":{
             "5.34.0":{
@@ -82,7 +60,7 @@
                "pass":2
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
@@ -107,6 +85,17 @@
             }
          }
       },
+      "App-pandoc-preprocess":{
+         "v0.9.10":{
+            "5.34.0":{
+               "fail":8,
+               "pass":3
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
       "App-perlmv":{
          "0.604":{
             "5.34.0":{
@@ -118,21 +107,10 @@
             }
          }
       },
-      "Asm-C":{
-         "20210330":{
-            "5.34.0":{
-               "fail":10,
-               "pass":40
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
       "Astro-ADS":{
          "1.26":{
             "5.34.0":{
-               "fail":13,
+               "fail":14,
                "pass":1
             },
             "5.35.9":{
@@ -150,6 +128,17 @@
             }
          }
       },
+      "BSD-Sysctl":{
+         "0.11":{
+            "5.34.0":{
+               "fail":11,
+               "pass":6
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
       "BackPAN-Version-Discover":{
          "0.01":{
             "5.34.0":{
@@ -157,51 +146,29 @@
                "pass":3
             },
             "5.35.9":{
-               "fail":4
+               "fail":5
             }
          }
       },
       "Bio-DB-NextProt":{
          "1.05":{
             "5.34.0":{
-               "fail":1,
+               "fail":10,
                "pass":1
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
       "Bio-FdrFet":{
          "0.05":{
             "5.34.0":{
-               "pass":12
+               "pass":13
             },
             "5.35.9":{
                "fail":1,
                "pass":4
-            }
-         }
-      },
-      "Bio-MaxQuant-Evidence-Statistics":{
-         "0.01":{
-            "5.34.0":{
-               "fail":1,
-               "pass":11
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
-      "Bio-RNA-Barriers":{
-         "0.01":{
-            "5.34.0":{
-               "fail":10,
-               "pass":3
-            },
-            "5.35.9":{
-               "fail":1
             }
          }
       },
@@ -210,6 +177,17 @@
             "5.34.0":{
                "fail":1,
                "pass":3
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
+      "Box-Calc":{
+         "1.0206":{
+            "5.34.0":{
+               "fail":3,
+               "pass":10
             },
             "5.35.9":{
                "fail":1
@@ -241,11 +219,11 @@
       "CGI-Application-PhotoGallery":{
          "0.16":{
             "5.34.0":{
-               "fail":2,
+               "fail":11,
                "pass":1
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
@@ -282,10 +260,21 @@
             }
          }
       },
+      "Catalyst-Plugin-CDBI-Transaction":{
+         "0.03":{
+            "5.34.0":{
+               "fail":2,
+               "pass":11
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
       "Catalyst-Plugin-Text-Xatena":{
          "0.02":{
             "5.34.0":{
-               "pass":8
+               "pass":9
             },
             "5.35.9":{
                "fail":2,
@@ -299,8 +288,19 @@
                "fail":7
             },
             "5.35.9":{
-               "fail":14,
+               "fail":15,
                "pass":2
+            }
+         }
+      },
+      "CmdArguments":{
+         "1.00":{
+            "5.34.0":{
+               "pass":2
+            },
+            "5.35.9":{
+               "fail":9,
+               "pass":3
             }
          }
       },
@@ -329,7 +329,7 @@
       "Crypt-Primes":{
          "0.50":{
             "5.34.0":{
-               "pass":21
+               "pass":22
             },
             "5.35.9":{
                "fail":1,
@@ -345,6 +345,17 @@
             "5.35.9":{
                "fail":1,
                "pass":5
+            }
+         }
+      },
+      "Crypto-Exchange-Binance-Spot-API":{
+         "0.05":{
+            "5.34.0":{
+               "fail":11,
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":1
             }
          }
       },
@@ -370,6 +381,50 @@
             }
          }
       },
+      "DBIx-Class-EncodedColumn-Crypt-PBKDF2":{
+         "0.000002":{
+            "5.34.0":{
+               "pass":5
+            },
+            "5.35.9":{
+               "fail":4,
+               "pass":1
+            }
+         }
+      },
+      "DBIx-Class-EncodedColumn-Crypt-Scrypt":{
+         "0.004":{
+            "5.34.0":{
+               "pass":13
+            },
+            "5.35.9":{
+               "fail":4,
+               "pass":1
+            }
+         }
+      },
+      "DBIx-Class-Result-Validation":{
+         "0.17":{
+            "5.34.0":{
+               "pass":15
+            },
+            "5.35.9":{
+               "fail":2,
+               "pass":7
+            }
+         }
+      },
+      "DBIx-Class-Tokenize":{
+         "0.01":{
+            "5.34.0":{
+               "pass":11
+            },
+            "5.35.9":{
+               "fail":2,
+               "pass":1
+            }
+         }
+      },
       "Dancer-Plugin-Passphrase":{
          "2.0.1":{
             "5.34.0":{
@@ -384,7 +439,7 @@
       "Dancer-Plugin-SporeDefinitionControl":{
          "0.18":{
             "5.34.0":{
-               "fail":1
+               "fail":2
             },
             "5.35.9":{
                "fail":4,
@@ -461,21 +516,10 @@
       "Devel-Chitin":{
          "0.18":{
             "5.34.0":{
-               "pass":3
+               "pass":14
             },
             "5.35.9":{
-               "fail":2,
-               "pass":4
-            }
-         }
-      },
-      "Devel-LeakGuard-Object":{
-         "0.08":{
-            "5.34.0":{
-               "pass":2
-            },
-            "5.35.9":{
-               "fail":1,
+               "fail":6,
                "pass":4
             }
          }
@@ -609,25 +653,25 @@
             }
          }
       },
+      "Finance-QuoteHist":{
+         "1.32":{
+            "5.34.0":{
+               "fail":14,
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":2
+            }
+         }
+      },
       "GD-Graph-Polar":{
          "0.17":{
             "5.34.0":{
-               "fail":12
+               "fail":13
             },
             "5.35.9":{
                "fail":5,
                "pass":3
-            }
-         }
-      },
-      "GO-TermFinder":{
-         "0.86":{
-            "5.34.0":{
-               "fail":2,
-               "pass":7
-            },
-            "5.35.9":{
-               "fail":1
             }
          }
       },
@@ -642,11 +686,11 @@
             }
          }
       },
-      "Geo-Index":{
-         "v0.0.8":{
+      "Geo-JapanMesh":{
+         "0.0.2":{
             "5.34.0":{
-               "fail":1,
-               "pass":11
+               "fail":2,
+               "pass":10
             },
             "5.35.9":{
                "fail":1
@@ -664,17 +708,6 @@
             }
          }
       },
-      "HTML-RSSAutodiscovery":{
-         "1.21":{
-            "5.34.0":{
-               "fail":8,
-               "pass":3
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
       "HTML-StickyQuery-DoCoMoGUID":{
          "0.03":{
             "5.34.0":{
@@ -689,11 +722,11 @@
       "HTML-TableExtract":{
          "2.15":{
             "5.34.0":{
-               "pass":37
+               "pass":38
             },
             "5.35.9":{
                "fail":1,
-               "pass":4
+               "pass":6
             }
          }
       },
@@ -719,6 +752,16 @@
             }
          }
       },
+      "Ham-Scraper":{
+         "0.9":{
+            "5.34.0":{
+               "pass":2
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
       "Hostfile-Manager":{
          "0.09":{
             "5.34.0":{
@@ -733,11 +776,11 @@
       "Hypatia-GraphViz2":{
          "0.015":{
             "5.34.0":{
-               "fail":1,
-               "pass":1
+               "fail":6,
+               "pass":3
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
@@ -752,47 +795,14 @@
             }
          }
       },
-      "IO-Buffered":{
-         "1.00":{
-            "5.34.0":{
-               "fail":11,
-               "pass":1
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
-      "IPC-ConcurrencyLimit":{
-         "0.17":{
-            "5.34.0":{
-               "pass":15
-            },
-            "5.35.9":{
-               "fail":2,
-               "pass":4
-            }
-         }
-      },
       "IPC-Exe":{
          "2.002001":{
             "5.34.0":{
                "pass":11
             },
             "5.35.9":{
-               "fail":2,
-               "pass":4
-            }
-         }
-      },
-      "Image-Magick-Info":{
-         "0.03":{
-            "5.34.0":{
                "fail":3,
-               "pass":1
-            },
-            "5.35.9":{
-               "fail":1
+               "pass":4
             }
          }
       },
@@ -803,7 +813,7 @@
                "pass":11
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
@@ -814,7 +824,7 @@
             },
             "5.35.9":{
                "fail":1,
-               "pass":4
+               "pass":5
             }
          }
       },
@@ -840,6 +850,17 @@
             }
          }
       },
+      "IronMan-Schema":{
+         "0.03":{
+            "5.34.0":{
+               "pass":12
+            },
+            "5.35.9":{
+               "fail":3,
+               "pass":1
+            }
+         }
+      },
       "JQuery-DataTables-Heavy":{
          "0.04":{
             "5.34.0":{
@@ -859,17 +880,6 @@
             },
             "5.35.9":{
                "fail":4
-            }
-         }
-      },
-      "Language-FP":{
-         "0.03":{
-            "5.34.0":{
-               "fail":2,
-               "pass":8
-            },
-            "5.35.9":{
-               "fail":1
             }
          }
       },
@@ -939,6 +949,28 @@
             }
          }
       },
+      "Log-Log4perl-Appender-DBIx-Class":{
+         "0.02":{
+            "5.34.0":{
+               "pass":12
+            },
+            "5.35.9":{
+               "fail":4,
+               "pass":5
+            }
+         }
+      },
+      "Logfile-SmartFilter":{
+         "0.01":{
+            "5.34.0":{
+               "fail":13,
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
       "Lyrics-Fetcher-Genius":{
          "0.05":{
             "5.34.0":{
@@ -972,11 +1004,21 @@
             }
          }
       },
-      "Math-Business-Blackscholes-Binaries":{
-         "1.23":{
+      "Mail-Log-Trace":{
+         "1.0101":{
+            "5.34.0":{
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
+      "Math-Business-BlackscholesMerton":{
+         "1.24":{
             "5.34.0":{
                "fail":2,
-               "pass":10
+               "pass":1
             },
             "5.35.9":{
                "fail":1
@@ -994,32 +1036,10 @@
             }
          }
       },
-      "Math-Fractal-Mandelbrot":{
-         "0.04":{
-            "5.34.0":{
-               "fail":1,
-               "pass":2
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
-      "Math-Geometry-Planar-GPC-PolygonXS":{
-         "0.052":{
-            "5.34.0":{
-               "pass":31
-            },
-            "5.35.9":{
-               "fail":1,
-               "pass":4
-            }
-         }
-      },
       "Math-LongDouble":{
          "0.23":{
             "5.34.0":{
-               "pass":16
+               "pass":17
             },
             "5.35.9":{
                "fail":2,
@@ -1027,14 +1047,14 @@
             }
          }
       },
-      "Math-Project3D":{
-         "1.02":{
+      "Math-Prime-Util":{
+         "0.73":{
             "5.34.0":{
-               "fail":2,
-               "pass":1
+               "fail":11,
+               "pass":38
             },
             "5.35.9":{
-               "fail":1
+               "fail":3
             }
          }
       },
@@ -1060,13 +1080,25 @@
             }
          }
       },
-      "Microarray-ExprSet":{
-         "0.11":{
+      "Metabolomics-Fragment-Annotation":{
+         "0.6.5.1":{
             "5.34.0":{
-               "pass":2
+               "fail":2,
+               "pass":11
             },
             "5.35.9":{
                "fail":1
+            }
+         }
+      },
+      "Microarray-ExprSet":{
+         "0.11":{
+            "5.34.0":{
+               "fail":3,
+               "pass":8
+            },
+            "5.35.9":{
+               "fail":4
             }
          }
       },
@@ -1092,21 +1124,53 @@
             }
          }
       },
-      "Mojo-AsyncAwait":{
+      "Mojolicious-Plugin-FormTamperingProtector":{
          "0.03":{
             "5.34.0":{
-               "fail":5,
-               "pass":5
+               "fail":17,
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":4
+            }
+         }
+      },
+      "Mojolicious-Plugin-Minion-Starter":{
+         "0.005":{
+            "5.34.0":{
+               "pass":2
             },
             "5.35.9":{
                "fail":1
             }
          }
       },
-      "Mojolicious-Plugin-FormTamperingProtector":{
-         "0.03":{
+      "Mojolicious-Plugin-MostTagHelpers":{
+         "0.04":{
             "5.34.0":{
-               "fail":16,
+               "fail":17,
+               "pass":2
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
+      "Mojolicious-Plugin-SessionStorage":{
+         "0.1.6":{
+            "5.34.0":{
+               "fail":1,
+               "pass":2
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
+      "Mojolicious-Plugin-WithCSRFProtection":{
+         "1.00":{
+            "5.34.0":{
+               "fail":4,
                "pass":1
             },
             "5.35.9":{
@@ -1136,17 +1200,6 @@
             }
          }
       },
-      "Net-Jabber":{
-         "2.0":{
-            "5.34.0":{
-               "fail":8,
-               "pass":3
-            },
-            "5.35.9":{
-               "fail":4
-            }
-         }
-      },
       "Net-SSLeay":{
          "1.92":{
             "5.34.0":{
@@ -1169,6 +1222,17 @@
             }
          }
       },
+      "Oracle-DML-Common":{
+         "0.21":{
+            "5.34.0":{
+               "fail":1,
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
       "Otogiri-Plugin-TableInfo":{
          "0.04":{
             "5.34.0":{
@@ -1188,17 +1252,6 @@
             },
             "5.35.9":{
                "fail":5
-            }
-         }
-      },
-      "PDL-Graphics-Gnuplot":{
-         "2.020":{
-            "5.34.0":{
-               "fail":1,
-               "pass":9
-            },
-            "5.35.9":{
-               "fail":1
             }
          }
       },
@@ -1230,7 +1283,7 @@
                "fail":3
             },
             "5.35.9":{
-               "fail":4,
+               "fail":5,
                "pass":4
             }
          }
@@ -1246,6 +1299,17 @@
             }
          }
       },
+      "Params-Style":{
+         "0.06":{
+            "5.34.0":{
+               "pass":1
+            },
+            "5.35.9":{
+               "fail":8,
+               "pass":3
+            }
+         }
+      },
       "Paranoid-BerkeleyDB":{
          "2.03":{
             "5.34.0":{
@@ -1257,10 +1321,11 @@
             }
          }
       },
-      "Parse-Binary-Iterative":{
-         "1.00":{
+      "Perl-Critic-Policy-PreferredModules":{
+         "0.004":{
             "5.34.0":{
-               "pass":7
+               "fail":7,
+               "pass":9
             },
             "5.35.9":{
                "fail":1
@@ -1281,21 +1346,21 @@
       "Perlmazing":{
          "1.2816":{
             "5.34.0":{
-               "pass":11
+               "pass":13
             },
             "5.35.9":{
-               "fail":5
+               "fail":6
             }
          }
       },
       "Pinto-Remote-SelfContained":{
          "1.000":{
             "5.34.0":{
-               "fail":2,
-               "pass":5
+               "fail":14,
+               "pass":13
             },
             "5.35.9":{
-               "fail":1
+               "fail":5
             }
          }
       },
@@ -1321,17 +1386,6 @@
             }
          }
       },
-      "ProgressBar-Stack":{
-         "1.01":{
-            "5.34.0":{
-               "fail":2,
-               "pass":8
-            },
-            "5.35.9":{
-               "fail":1
-            }
-         }
-      },
       "Protocol-IMAP":{
          "0.004":{
             "5.34.0":{
@@ -1351,17 +1405,6 @@
             "5.35.9":{
                "fail":1,
                "pass":4
-            }
-         }
-      },
-      "SCUBA-Table-NoDeco":{
-         "0.03":{
-            "5.34.0":{
-               "fail":1,
-               "pass":9
-            },
-            "5.35.9":{
-               "fail":1
             }
          }
       },
@@ -1420,14 +1463,14 @@
             }
          }
       },
-      "Set-Definition":{
-         "0.01":{
+      "SecondLife-DataTypes":{
+         "0.900":{
             "5.34.0":{
-               "fail":12,
-               "pass":1
+               "fail":1,
+               "pass":9
             },
             "5.35.9":{
-               "fail":5
+               "fail":1
             }
          }
       },
@@ -1442,11 +1485,22 @@
             }
          }
       },
-      "Spreadsheet-Engine":{
-         "0.14":{
+      "Simple-SAX-Serializer":{
+         "0.05":{
             "5.34.0":{
-               "fail":2,
+               "fail":1,
                "pass":1
+            },
+            "5.35.9":{
+               "fail":1
+            }
+         }
+      },
+      "Sort-Naturally-XS":{
+         "0.7.9":{
+            "5.34.0":{
+               "fail":4,
+               "pass":14
             },
             "5.35.9":{
                "fail":1
@@ -1478,10 +1532,10 @@
       "Storable-AMF":{
          "1.23":{
             "5.34.0":{
-               "pass":3
+               "pass":14
             },
             "5.35.9":{
-               "fail":5,
+               "fail":9,
                "pass":4
             }
          }
@@ -1500,10 +1554,11 @@
       "Template-Plugin-WebService":{
          "0.16":{
             "5.34.0":{
+               "fail":9,
                "pass":3
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
@@ -1525,25 +1580,25 @@
                "pass":2
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
       "Text-EP3-Verilog":{
          "1.00":{
             "5.34.0":{
-               "fail":2,
+               "fail":11,
                "pass":1
             },
             "5.35.9":{
-               "fail":1
+               "fail":4
             }
          }
       },
       "Text-Info":{
          "0.01":{
             "5.34.0":{
-               "fail":11,
+               "fail":12,
                "pass":1
             },
             "5.35.9":{
@@ -1576,20 +1631,21 @@
       "Tie-Array-BoundedIndex":{
          "0.06":{
             "5.34.0":{
-               "pass":1
+               "pass":14
             },
             "5.35.9":{
-               "fail":1
+               "fail":10,
+               "pass":5
             }
          }
       },
       "Tie-Hash-Cannabinol":{
          "v1.12.2":{
             "5.34.0":{
-               "pass":3
+               "pass":14
             },
             "5.35.9":{
-               "fail":5,
+               "fail":9,
                "pass":4
             }
          }
@@ -1597,28 +1653,49 @@
       "Tie-Hash-Interpolate":{
          "0.07":{
             "5.34.0":{
-               "pass":14
+               "pass":15
             },
             "5.35.9":{
-               "fail":4
+               "fail":5
+            }
+         }
+      },
+      "Tie-Hash-Regex":{
+         "1.14":{
+            "5.34.0":{
+               "pass":2
+            },
+            "5.35.9":{
+               "fail":1
             }
          }
       },
       "Time-Piece-Over24":{
          "0.016":{
             "5.34.0":{
-               "pass":10
+               "pass":11
             },
             "5.35.9":{
                "fail":2,
-               "pass":3
+               "pass":4
+            }
+         }
+      },
+      "Timeout-Queue":{
+         "1.02":{
+            "5.34.0":{
+               "fail":2,
+               "pass":9
+            },
+            "5.35.9":{
+               "fail":1
             }
          }
       },
       "Tk-Clock":{
          "0.43":{
             "5.34.0":{
-               "pass":12
+               "pass":13
             },
             "5.35.9":{
                "fail":1,
@@ -1633,6 +1710,17 @@
             },
             "5.35.9":{
                "fail":4,
+               "pass":4
+            }
+         }
+      },
+      "TreePath-Role-Graph":{
+         "0.07":{
+            "5.34.0":{
+               "pass":5
+            },
+            "5.35.9":{
+               "fail":1,
                "pass":3
             }
          }
@@ -1651,7 +1739,7 @@
       "Unix-PID-Tiny":{
          "0.95":{
             "5.34.0":{
-               "fail":14,
+               "fail":15,
                "pass":7
             },
             "5.35.9":{
@@ -1703,14 +1791,14 @@
             }
          }
       },
-      "WWW-RSSFeed":{
-         "0.01":{
+      "WWW-Search-Coveralia":{
+         "0.001":{
             "5.34.0":{
                "fail":12,
                "pass":1
             },
             "5.35.9":{
-               "fail":5
+               "fail":1
             }
          }
       },
@@ -1721,7 +1809,7 @@
             },
             "5.35.9":{
                "fail":2,
-               "pass":6
+               "pass":7
             }
          }
       },
@@ -1743,7 +1831,7 @@
             },
             "5.35.9":{
                "fail":1,
-               "pass":13
+               "pass":14
             }
          }
       },
@@ -1766,6 +1854,17 @@
             "5.35.9":{
                "fail":3,
                "pass":5
+            }
+         }
+      },
+      "WebService-NetSuite":{
+         "0.05":{
+            "5.34.0":{
+               "fail":1
+            },
+            "5.35.9":{
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -1841,7 +1940,7 @@
                "pass":14
             },
             "5.35.9":{
-               "fail":5
+               "fail":6
             }
          }
       }
