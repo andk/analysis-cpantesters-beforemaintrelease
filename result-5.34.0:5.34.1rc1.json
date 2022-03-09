@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.34.1 RC1":35066,
-      "datetime":"2022-03-08T13:58:31",
+      "5.34.1 RC1":35104,
+      "datetime":"2022-03-09T13:58:23",
       "perls":[
          "5.34.0",
          "5.34.1 RC1"
       ],
-      "totalrcdists":21679
+      "totalrcdists":21688
    },
    "!CAND":{
       "Acme-AutoColor":{
@@ -1318,7 +1318,7 @@
       "Parallel-Prefork":{
          "0.18":{
             "5.34.0":{
-               "pass":15
+               "pass":16
             },
             "5.34.1 RC1":{
                "fail":1,
