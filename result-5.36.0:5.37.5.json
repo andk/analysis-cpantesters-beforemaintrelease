@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.37.5":283281,
-      "datetime":"2022-11-23T12:51:43",
+      "5.37.5":283351,
+      "datetime":"2022-11-24T12:51:33",
       "perls":[
          "5.36.0",
          "5.37.5"
       ],
-      "totalrcdists":31617
+      "totalrcdists":31624
    },
    "!CAND":{
       "AI-ParticleSwarmOptimization-MCE":{
@@ -92,6 +92,17 @@
             "5.37.5":{
                "fail":2,
                "pass":5
+            }
+         }
+      },
+      "Alien-Bazel":{
+         "0.02":{
+            "5.36.0":{
+               "fail":1,
+               "pass":4
+            },
+            "5.37.5":{
+               "fail":1
             }
          }
       },
