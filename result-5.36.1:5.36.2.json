@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.36.2":1370,
-      "datetime":"2023-11-28T12:53:40",
+      "5.36.2":1856,
+      "datetime":"2023-11-29T12:53:38",
       "perls":[
          "5.36.1",
          "5.36.2"
       ],
-      "totalrcdists":653
+      "totalrcdists":713
    },
    "!CAND":{
       "Data-Printer-Theme-Zellner":{
