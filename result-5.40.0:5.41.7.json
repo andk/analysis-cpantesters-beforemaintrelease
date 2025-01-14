@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.41.7":243053,
-      "datetime":"2025-01-14T00:15:22",
+      "5.41.7":243229,
+      "datetime":"2025-01-14T12:15:07",
       "perls":[
          "5.40.0",
          "5.41.7"
       ],
-      "totalrcdists":31188
+      "totalrcdists":31212
    },
    "!CAND":{
       "AI-Logic-AnswerSet":{
@@ -1634,7 +1634,7 @@
       "Daje-Workflow-GenerateSQL-Activity":{
          "0.01":{
             "5.40.0":{
-               "fail":5,
+               "fail":6,
                "pass":2
             },
             "5.41.7":{
@@ -2347,11 +2347,11 @@
       "ExtUtils-LibBuilder":{
          "0.09":{
             "5.40.0":{
-               "pass":9
+               "pass":13
             },
             "5.41.7":{
                "fail":1,
-               "pass":2
+               "pass":3
             }
          }
       },
@@ -4976,7 +4976,7 @@
             },
             "5.41.7":{
                "fail":1,
-               "pass":51
+               "pass":52
             }
          }
       },
