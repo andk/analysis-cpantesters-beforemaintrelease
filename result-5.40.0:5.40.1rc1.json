@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.1 RC1":17158,
-      "datetime":"2025-01-15T00:16:54",
+      "5.40.1 RC1":18716,
+      "datetime":"2025-01-15T12:16:46",
       "perls":[
          "5.40.0",
          "5.40.1 RC1"
       ],
-      "totalrcdists":15900
+      "totalrcdists":17375
    },
    "!CAND":{
       "Acme-LOLCAT":{
@@ -94,6 +94,17 @@
             }
          }
       },
+      "App-Critique":{
+         "0.05":{
+            "5.40.0":{
+               "fail":2,
+               "pass":1
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
       "App-RL":{
          "0.3.0":{
             "5.40.0":{
@@ -119,6 +130,7 @@
       "Async-Microservice":{
          "0.03":{
             "5.40.0":{
+               "fail":1,
                "pass":9
             },
             "5.40.1 RC1":{
@@ -129,6 +141,17 @@
       "Bib-CrossRef":{
          "0.12":{
             "5.40.0":{
+               "pass":1
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Bio-MaxQuant-Evidence-Statistics":{
+         "0.01":{
+            "5.40.0":{
+               "fail":1,
                "pass":1
             },
             "5.40.1 RC1":{
@@ -912,6 +935,17 @@
             }
          }
       },
+      "Location-GeoTool":{
+         "2":{
+            "5.40.0":{
+               "fail":2,
+               "pass":1
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Mac-PropertyList-SAX":{
          "1.001":{
             "5.40.0":{
@@ -1390,6 +1424,17 @@
             }
          }
       },
+      "Physics-Unit":{
+         "0.60":{
+            "5.40.0":{
+               "fail":2,
+               "pass":10
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
       "RADIUS":{
          "1.0":{
             "5.40.0":{
@@ -1476,6 +1521,28 @@
             }
          }
       },
+      "Software-Catalog-SW-bulwark-qt":{
+         "0.008":{
+            "5.40.0":{
+               "fail":5,
+               "pass":3
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Software-Catalog-SW-dummy-undownloadable":{
+         "0.004":{
+            "5.40.0":{
+               "fail":6,
+               "pass":2
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Software-Catalog-SW-filezilla":{
          "0.003":{
             "5.40.0":{
@@ -1498,11 +1565,44 @@
             }
          }
       },
+      "Software-Catalog-SW-kdenlive":{
+         "0.001":{
+            "5.40.0":{
+               "fail":6,
+               "pass":2
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Software-Catalog-SW-phpmyadmin":{
+         "0.004":{
+            "5.40.0":{
+               "fail":5,
+               "pass":2
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Software-Catalog-SW-zcoin-qt":{
          "0.008":{
             "5.40.0":{
                "fail":5,
                "pass":3
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Software-Catalog-SW-zotero":{
+         "0.006":{
+            "5.40.0":{
+               "fail":5,
+               "pass":2
             },
             "5.40.1 RC1":{
                "fail":1
@@ -1535,6 +1635,16 @@
          "0.03":{
             "5.40.0":{
                "fail":2,
+               "pass":1
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Statistics-KruskalWallis":{
+         "0.01":{
+            "5.40.0":{
                "pass":1
             },
             "5.40.1 RC1":{
@@ -1676,7 +1786,7 @@
       "Test-ManyParams":{
          "0.10":{
             "5.40.0":{
-               "pass":9
+               "pass":11
             },
             "5.40.1 RC1":{
                "fail":1
@@ -1825,6 +1935,27 @@
          "1.1":{
             "5.40.0":{
                "pass":1
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "TkGenerator":{
+         "00.1a":{
+            "5.40.0":{
+               "pass":1
+            },
+            "5.40.1 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Tradestie-WSBetsAPI":{
+         "0.001":{
+            "5.40.0":{
+               "fail":6,
+               "pass":7
             },
             "5.40.1 RC1":{
                "fail":1
