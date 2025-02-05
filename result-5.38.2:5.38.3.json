@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.3":34701,
-      "datetime":"2025-02-04T12:15:28",
+      "5.38.3":34821,
+      "datetime":"2025-02-05T00:15:30",
       "perls":[
          "5.38.2",
          "5.38.3"
       ],
-      "totalrcdists":31429
+      "totalrcdists":31432
    },
    "!CAND":{
       "Acme-Insult-Glax":{
@@ -1650,7 +1650,7 @@
       "LWP-UserAgent-Throttled":{
          "0.12":{
             "5.38.2":{
-               "fail":5,
+               "fail":8,
                "pass":13
             },
             "5.38.3":{
