@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.1":34559,
-      "datetime":"2025-02-08T12:16:54",
+      "5.40.1":34638,
+      "datetime":"2025-02-09T00:16:36",
       "perls":[
          "5.40.0",
          "5.40.1"
       ],
-      "totalrcdists":29270
+      "totalrcdists":29289
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -1080,6 +1080,16 @@
             "5.40.0":{
                "fail":8,
                "pass":3
+            },
+            "5.40.1":{
+               "fail":1
+            }
+         }
+      },
+      "Daje-Workflow-GeneratePerl-Activity":{
+         "0.06":{
+            "5.40.0":{
+               "pass":5
             },
             "5.40.1":{
                "fail":1
