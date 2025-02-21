@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.3":38053,
-      "datetime":"2025-02-21T00:17:23",
+      "5.38.3":38067,
+      "datetime":"2025-02-21T12:16:17",
       "perls":[
          "5.38.2",
          "5.38.3"
       ],
-      "totalrcdists":31930
+      "totalrcdists":31931
    },
    "!CAND":{
       "Acme-Insult-Glax":{
