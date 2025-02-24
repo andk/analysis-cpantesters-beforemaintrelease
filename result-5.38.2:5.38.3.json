@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.3":38678,
-      "datetime":"2025-02-23T12:16:17",
+      "5.38.3":38786,
+      "datetime":"2025-02-24T00:15:57",
       "perls":[
          "5.38.2",
          "5.38.3"
       ],
-      "totalrcdists":32016
+      "totalrcdists":32030
    },
    "!CAND":{
       "Acme-Insult-Glax":{
@@ -2228,6 +2228,7 @@
       "Mozilla-IntermediateCerts":{
          "v0.0003":{
             "5.38.2":{
+               "fail":1,
                "pass":4
             },
             "5.38.3":{
