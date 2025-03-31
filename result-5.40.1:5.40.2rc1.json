@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2 RC1":848,
-      "datetime":"2025-03-31T03:44:03",
+      "5.40.2 RC1":2381,
+      "datetime":"2025-03-31T15:43:39",
       "perls":[
          "5.40.1",
          "5.40.2 RC1"
       ],
-      "totalrcdists":844
+      "totalrcdists":2375
    },
    "!CAND":{
       "Alien-cmake3":{
@@ -19,11 +19,191 @@
             }
          }
       },
+      "App-Kit":{
+         "0.63":{
+            "5.40.1":{
+               "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "BoutrosLab-TSVStream":{
+         "v0.5.4":{
+            "5.40.1":{
+               "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Build-Daily":{
+         "0.01":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Coro-PriorityQueue":{
+         "1.1":{
+            "5.40.1":{
+               "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "DateTime-Tiny":{
+         "1.07":{
+            "5.40.1":{
+               "fail":9,
+               "pass":3
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Device-Firewall-PaloAlto":{
+         "0.1.9":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Math-Business-BlackScholesMerton":{
+         "1.25":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Math-Business-Blackscholes-Binaries":{
+         "1.23":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Net-RADSWrappers":{
+         "0.01":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "POE-API-Peek":{
+         "2.20":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Plucene":{
+         "1.25":{
+            "5.40.1":{
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Spreadsheet-Engine":{
+         "0.14":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Test-LWP-UserAgent":{
          "0.036":{
             "5.40.1":{
                "fail":6,
                "pass":9
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Time-TAI64":{
+         "2.11":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Tk":{
+         "804.036":{
+            "5.40.1":{
+               "pass":9
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Tk-StatusBar":{
+         "0.04":{
+            "5.40.1":{
+               "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Unicode-Map8":{
+         "0.13":{
+            "5.40.1":{
+               "fail":1,
+               "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "XML-Filter-DataIndenter":{
+         "0.1":{
+            "5.40.1":{
+               "pass":2
             },
             "5.40.2 RC1":{
                "fail":1
