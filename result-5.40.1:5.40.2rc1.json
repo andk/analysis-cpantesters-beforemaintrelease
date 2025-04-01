@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2 RC1":2381,
-      "datetime":"2025-03-31T15:43:39",
+      "5.40.2 RC1":3670,
+      "datetime":"2025-04-01T03:43:54",
       "perls":[
          "5.40.1",
          "5.40.2 RC1"
       ],
-      "totalrcdists":2375
+      "totalrcdists":3660
    },
    "!CAND":{
       "Alien-cmake3":{
@@ -44,6 +44,27 @@
             "5.40.1":{
                "fail":1,
                "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "CLI-Driver":{
+         "0.77":{
+            "5.40.1":{
+               "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "CVSS":{
+         "1.13":{
+            "5.40.1":{
+               "fail":2,
+               "pass":4
             },
             "5.40.2 RC1":{
                "fail":1
@@ -95,6 +116,17 @@
       },
       "Math-Business-Blackscholes-Binaries":{
          "1.23":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Net-Analysis":{
+         "0.41":{
             "5.40.1":{
                "fail":1,
                "pass":1
@@ -200,10 +232,32 @@
             }
          }
       },
+      "WebService-JugemKey-Auth":{
+         "0.04":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
       "XML-Filter-DataIndenter":{
          "0.1":{
             "5.40.1":{
                "pass":2
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "XML-XML2JSON":{
+         "0.06":{
+            "5.40.1":{
+               "fail":3,
+               "pass":5
             },
             "5.40.2 RC1":{
                "fail":1
