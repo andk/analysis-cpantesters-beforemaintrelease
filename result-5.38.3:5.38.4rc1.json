@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4 RC1":5112,
-      "datetime":"2025-04-01T15:44:16",
+      "5.38.4 RC1":5414,
+      "datetime":"2025-04-02T03:44:29",
       "perls":[
          "5.38.3",
          "5.38.4 RC1"
       ],
-      "totalrcdists":5095
+      "totalrcdists":5397
    },
    "!CAND":{
       "Alien-cmake3":{

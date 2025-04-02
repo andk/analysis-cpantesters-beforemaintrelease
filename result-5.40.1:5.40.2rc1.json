@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2 RC1":5377,
-      "datetime":"2025-04-01T15:43:25",
+      "5.40.2 RC1":5672,
+      "datetime":"2025-04-02T03:43:42",
       "perls":[
          "5.40.1",
          "5.40.2 RC1"
       ],
-      "totalrcdists":5363
+      "totalrcdists":5657
    },
    "!CAND":{
       "Alien-cmake3":{
@@ -257,6 +257,17 @@
       },
       "Template-Declare":{
          "0.47":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Template-Plugin-HTML-SuperForm":{
+         "1.0":{
             "5.40.1":{
                "fail":1,
                "pass":1
