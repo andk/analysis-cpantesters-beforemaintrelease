@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4 RC1":8129,
-      "datetime":"2025-04-02T15:44:29",
+      "5.38.4 RC1":9012,
+      "datetime":"2025-04-03T03:46:08",
       "perls":[
          "5.38.3",
          "5.38.4 RC1"
       ],
-      "totalrcdists":8010
+      "totalrcdists":8888
    },
    "!CAND":{
       "Alien-cmake3":{
@@ -42,10 +42,31 @@
             }
          }
       },
+      "Async-Microservice":{
+         "0.04":{
+            "5.38.3":{
+               "fail":2,
+               "pass":2
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Benchmark-Timer-Class":{
          "0.02":{
             "5.38.3":{
                "pass":3
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "CGI-UploadEngine":{
+         "0.93":{
+            "5.38.3":{
+               "pass":1
             },
             "5.38.4 RC1":{
                "fail":1
@@ -126,6 +147,17 @@
             }
          }
       },
+      "Daje-Workflow-GeneratePerl-Activity":{
+         "0.12":{
+            "5.38.3":{
+               "fail":2,
+               "pass":3
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Daje-Workflow-GenerateSchema-Activity":{
          "0.15":{
             "5.38.3":{
@@ -154,7 +186,8 @@
                "pass":3
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -217,6 +250,17 @@
             "5.38.3":{
                "fail":1,
                "pass":3
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Log-FileSimple":{
+         "0.02":{
+            "5.38.3":{
+               "fail":1,
+               "pass":2
             },
             "5.38.4 RC1":{
                "fail":1
@@ -319,6 +363,17 @@
             }
          }
       },
+      "Parse-Vipar":{
+         "0.01":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Religion-Bible-Regex-Config":{
          "0.61":{
             "5.38.3":{
@@ -362,11 +417,33 @@
             }
          }
       },
+      "Template-Alloy-XS":{
+         "1.004":{
+            "5.38.3":{
+               "fail":1,
+               "pass":2
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Test-LWP-UserAgent":{
          "0.036":{
             "5.38.3":{
                "fail":8,
                "pass":8
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Text-Aspell":{
+         "0.09":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
             },
             "5.38.4 RC1":{
                "fail":1
