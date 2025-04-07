@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4 RC1":20420,
-      "datetime":"2025-04-07T03:44:29",
+      "5.38.4 RC1":21392,
+      "datetime":"2025-04-07T15:44:37",
       "perls":[
          "5.38.3",
          "5.38.4 RC1"
       ],
-      "totalrcdists":20066
+      "totalrcdists":21028
    },
    "!CAND":{
       "Acme-Free-Advice-Slip":{
@@ -186,6 +186,17 @@
       "CGI-UploadEngine":{
          "0.93":{
             "5.38.3":{
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Catalyst-Plugin-UploadProgress":{
+         "0.06":{
+            "5.38.3":{
+               "fail":1,
                "pass":1
             },
             "5.38.4 RC1":{
@@ -768,6 +779,16 @@
             }
          }
       },
+      "Net-GNUDBSearch":{
+         "1.01":{
+            "5.38.3":{
+               "pass":2
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Net-Google-Calendar-Server":{
          "0.1":{
             "5.38.3":{
@@ -932,6 +953,17 @@
             }
          }
       },
+      "Pod-Trac":{
+         "0.0.1":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Promise-AsyncAwait":{
          "0.01":{
             "5.38.3":{
@@ -1080,6 +1112,28 @@
             "5.38.3":{
                "fail":1,
                "pass":2
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Template-Provider-DBIC":{
+         "0.02":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Template-Provider-PrefixDBIC":{
+         "0.01":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
             },
             "5.38.4 RC1":{
                "fail":1
