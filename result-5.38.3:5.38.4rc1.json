@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4 RC1":24552,
-      "datetime":"2025-04-08T15:44:48",
+      "5.38.4 RC1":25326,
+      "datetime":"2025-04-09T03:45:45",
       "perls":[
          "5.38.3",
          "5.38.4 RC1"
       ],
-      "totalrcdists":24015
+      "totalrcdists":24780
    },
    "!CAND":{
       "Acme-Free-Advice-Slip":{
@@ -476,10 +476,11 @@
       "Deep-Encode":{
          "0.19":{
             "5.38.3":{
-               "pass":3
+               "pass":4
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
