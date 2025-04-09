@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2 RC1":25401,
-      "datetime":"2025-04-09T03:44:51",
+      "5.40.2 RC1":26536,
+      "datetime":"2025-04-09T15:45:50",
       "perls":[
          "5.40.1",
          "5.40.2 RC1"
       ],
-      "totalrcdists":24695
+      "totalrcdists":25808
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -196,6 +196,17 @@
             }
          }
       },
+      "Bio-MaxQuant-Evidence-Statistics":{
+         "0.01":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Bio-Taxonomy-GlobalNames":{
          "0.07":{
             "5.40.1":{
@@ -330,6 +341,7 @@
       "Carp-Always-Color":{
          "0.08":{
             "5.40.1":{
+               "fail":1,
                "pass":2
             },
             "5.40.2 RC1":{
@@ -504,7 +516,8 @@
       "Devel-ModuleDumper":{
          "0.03":{
             "5.40.1":{
-               "pass":3
+               "fail":2,
+               "pass":4
             },
             "5.40.2 RC1":{
                "fail":1
@@ -986,6 +999,17 @@
             }
          }
       },
+      "Lingua-ZH-PinyinConvert":{
+         "0.05":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Lip-Pod":{
          "0.001":{
             "5.40.1":{
@@ -1030,6 +1054,17 @@
             }
          }
       },
+      "Mail-Log-Trace":{
+         "1.0101":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Map-Tube-KualaLumpur":{
          "0.07":{
             "5.40.1":{
@@ -1055,6 +1090,7 @@
       "Map-Tube-Milan":{
          "0.008":{
             "5.40.1":{
+               "fail":1,
                "pass":3
             },
             "5.40.2 RC1":{
@@ -1453,6 +1489,7 @@
       "Parcel-Track-KR-CJKorea":{
          "0.005":{
             "5.40.1":{
+               "fail":1,
                "pass":3
             },
             "5.40.2 RC1":{
@@ -2093,9 +2130,21 @@
             }
          }
       },
+      "WebService-Google-Contact":{
+         "0.1":{
+            "5.40.1":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.2 RC1":{
+               "fail":1
+            }
+         }
+      },
       "WebService-GoogleAPI-Client":{
          "0.27":{
             "5.40.1":{
+               "fail":2,
                "pass":1
             },
             "5.40.2 RC1":{
