@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.1":88951,
-      "datetime":"2025-04-10T03:42:53",
+      "5.40.1":88992,
+      "datetime":"2025-04-10T15:42:53",
       "perls":[
          "5.40.0",
          "5.40.1"
       ],
-      "totalrcdists":33576
+      "totalrcdists":33585
    },
    "!CAND":{
       "Acme-BeyondPerl-ToSQL":{
