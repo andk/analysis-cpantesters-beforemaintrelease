@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2 RC1":29960,
-      "datetime":"2025-04-11T03:44:00",
+      "5.40.2 RC1":30021,
+      "datetime":"2025-04-11T15:44:09",
       "perls":[
          "5.40.1",
          "5.40.2 RC1"
       ],
-      "totalrcdists":28971
+      "totalrcdists":28981
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -441,10 +441,11 @@
       "Coro-PriorityQueue":{
          "1.1":{
             "5.40.1":{
+               "fail":1,
                "pass":2
             },
             "5.40.2 RC1":{
-               "fail":1
+               "fail":2
             }
          }
       },
@@ -583,10 +584,11 @@
       "Devel-LeakGuard-Object":{
          "0.08":{
             "5.40.1":{
-               "pass":2
+               "pass":3
             },
             "5.40.2 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -640,7 +642,8 @@
                "pass":2
             },
             "5.40.2 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -694,7 +697,8 @@
                "pass":2
             },
             "5.40.2 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },

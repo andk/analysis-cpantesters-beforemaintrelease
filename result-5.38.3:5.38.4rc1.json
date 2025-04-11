@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4 RC1":30079,
-      "datetime":"2025-04-11T03:44:57",
+      "5.38.4 RC1":31761,
+      "datetime":"2025-04-11T15:45:10",
       "perls":[
          "5.38.3",
          "5.38.4 RC1"
       ],
-      "totalrcdists":29298
+      "totalrcdists":30782
    },
    "!CAND":{
       "Acme-Free-Advice-Slip":{
@@ -98,6 +98,17 @@
       },
       "App-CmdDirs":{
          "1.02":{
+            "5.38.3":{
+               "fail":1,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "App-CpanfileSlipstop":{
+         "0.02":{
             "5.38.3":{
                "fail":1,
                "pass":1
@@ -250,6 +261,17 @@
             }
          }
       },
+      "Bio-Taxonomy-GlobalNames":{
+         "0.07":{
+            "5.38.3":{
+               "fail":3,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Build-Daily":{
          "0.01":{
             "5.38.3":{
@@ -316,6 +338,27 @@
             }
          }
       },
+      "Catalyst-TraitFor-Request-StrongParameters":{
+         "0.003":{
+            "5.38.3":{
+               "pass":3
+            },
+            "5.38.4 RC1":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
+      "Catalyst-TraitFor-Request-StructuredParameters":{
+         "0.009":{
+            "5.38.3":{
+               "pass":3
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Class-AutoGenerate":{
          "0.05":{
             "5.38.3":{
@@ -355,7 +398,8 @@
                "pass":3
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":2,
+               "pass":1
             }
          }
       },
@@ -453,7 +497,8 @@
                "pass":3
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -518,7 +563,8 @@
                "pass":3
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -528,13 +574,15 @@
                "pass":3
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":2,
+               "pass":1
             }
          }
       },
       "Data-Enumerator":{
          "0.03":{
             "5.38.3":{
+               "fail":1,
                "pass":1
             },
             "5.38.4 RC1":{
@@ -746,7 +794,19 @@
                "pass":3
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
+      "Genealogy-ChroniclingAmerica":{
+         "0.05":{
+            "5.38.3":{
+               "pass":5
+            },
+            "5.38.4 RC1":{
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -863,10 +923,11 @@
       "Linux-RTC-Ioctl":{
          "0.08":{
             "5.38.3":{
-               "pass":3
+               "pass":4
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":2,
+               "pass":1
             }
          }
       },
@@ -917,10 +978,11 @@
       "Mail-Alias-LocalFile":{
          "0.01":{
             "5.38.3":{
-               "pass":4
+               "pass":7
             },
             "5.38.4 RC1":{
-               "fail":1
+               "fail":2,
+               "pass":1
             }
          }
       },
@@ -1308,6 +1370,17 @@
             }
          }
       },
+      "Parcel-Track-KR-CJKorea":{
+         "0.005":{
+            "5.38.3":{
+               "fail":3,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Parse-CPinfo":{
          "0.882":{
             "5.38.3":{
@@ -1671,6 +1744,17 @@
             }
          }
       },
+      "Text-Match-FastAlternatives":{
+         "1.05":{
+            "5.38.3":{
+               "fail":1,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Text-SpellChecker":{
          "0.14":{
             "5.38.3":{
@@ -1726,11 +1810,33 @@
             }
          }
       },
+      "Thread-SharedTreeSet":{
+         "0.01":{
+            "5.38.3":{
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":2,
+               "pass":1
+            }
+         }
+      },
       "Thread-Workers":{
          "0.06":{
             "5.38.3":{
                "fail":1,
                "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Tie-Array-Packed-Auto":{
+         "0.03":{
+            "5.38.3":{
+               "fail":1,
+               "pass":2
             },
             "5.38.4 RC1":{
                "fail":1
@@ -1759,6 +1865,17 @@
             }
          }
       },
+      "Timeout-Queue":{
+         "1.02":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "UML-State":{
          "0.02":{
             "5.38.3":{
@@ -1772,6 +1889,17 @@
       },
       "Vcdiff-Xdelta3":{
          "0.104":{
+            "5.38.3":{
+               "fail":2,
+               "pass":1
+            },
+            "5.38.4 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "WSDL-Generator":{
+         "0.04":{
             "5.38.3":{
                "fail":2,
                "pass":1
