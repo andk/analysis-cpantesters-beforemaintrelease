@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2 RC1":30166,
-      "datetime":"2025-04-13T06:01:14",
+      "5.40.2 RC1":30212,
+      "datetime":"2025-04-13T18:00:56",
       "perls":[
          "5.40.1",
          "5.40.2 RC1"
       ],
-      "totalrcdists":29002
+      "totalrcdists":29004
    },
    "!CAND":{
       "AI-Calibrate":{

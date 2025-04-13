@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4 RC1":32102,
-      "datetime":"2025-04-13T06:02:17",
+      "5.38.4 RC1":32149,
+      "datetime":"2025-04-13T18:01:52",
       "perls":[
          "5.38.3",
          "5.38.4 RC1"
       ],
-      "totalrcdists":30950
+      "totalrcdists":30954
    },
    "!CAND":{
       "Acme-Free-Advice-Slip":{
