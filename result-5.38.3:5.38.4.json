@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.4":39793,
-      "datetime":"2025-05-25T17:36:16",
+      "5.38.4":39981,
+      "datetime":"2025-05-26T05:35:42",
       "perls":[
          "5.38.3",
          "5.38.4"
       ],
-      "totalrcdists":3353
+      "totalrcdists":3354
    },
    "!CAND":{
       "Alien-CFITSIO":{
@@ -128,10 +128,10 @@
       "Config-Abstraction":{
          "0.28":{
             "5.38.3":{
-               "fail":1
+               "fail":2
             },
             "5.38.4":{
-               "fail":1,
+               "fail":4,
                "pass":3
             }
          }
