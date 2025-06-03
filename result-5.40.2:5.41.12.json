@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.41.12":112894,
-      "datetime":"2025-06-02T17:04:18",
+      "5.41.12":112964,
+      "datetime":"2025-06-03T05:03:59",
       "perls":[
          "5.40.2",
          "5.41.12"
       ],
-      "totalrcdists":32702
+      "totalrcdists":32703
    },
    "!CAND":{
       "API-Plesk":{
@@ -716,22 +716,22 @@
       "Class-Accessor-Grouped":{
          "0.10014":{
             "5.40.2":{
-               "pass":37
+               "pass":38
             },
             "5.41.12":{
                "fail":1,
-               "pass":19
+               "pass":20
             }
          }
       },
       "Class-Accessor-Lite":{
          "0.08":{
             "5.40.2":{
-               "pass":21
+               "pass":22
             },
             "5.41.12":{
                "fail":1,
-               "pass":14
+               "pass":15
             }
          }
       },
