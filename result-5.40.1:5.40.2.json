@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.2":64835,
-      "datetime":"2025-06-08T03:06:48",
+      "5.40.2":64882,
+      "datetime":"2025-06-08T17:06:05",
       "perls":[
          "5.40.1",
          "5.40.2"
       ],
-      "totalrcdists":9059
+      "totalrcdists":9066
    },
    "!CAND":{
       "AWS-CLIWrapper":{
