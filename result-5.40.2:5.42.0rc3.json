@@ -1,19 +1,19 @@
 {
    "!ALL":{
-      "5.42.0 RC3":1526,
-      "datetime":"2025-07-02T19:19:00",
+      "5.42.0 RC3":3161,
+      "datetime":"2025-07-03T05:18:17",
       "perls":[
          "5.40.2",
          "5.42.0 RC3"
       ],
-      "totalrcdists":692
+      "totalrcdists":1851
    },
    "!CAND":{
-      "IO-Async":{
-         "0.804":{
+      "Convert-Bencode_XS":{
+         "0.06":{
             "5.40.2":{
-               "fail":4,
-               "pass":36
+               "fail":8,
+               "pass":1
             },
             "5.42.0 RC3":{
                "fail":1
@@ -31,10 +31,40 @@
             }
          }
       },
-      "Sys-Info-Driver-Linux":{
-         "0.7905":{
+      "Location-GeoTool":{
+         "2":{
             "5.40.2":{
-               "fail":4,
+               "pass":1
+            },
+            "5.42.0 RC3":{
+               "fail":1
+            }
+         }
+      },
+      "Mail-Sendmail":{
+         "0.80":{
+            "5.40.2":{
+               "fail":1,
+               "pass":1
+            },
+            "5.42.0 RC3":{
+               "fail":1
+            }
+         }
+      },
+      "Perinci-Sub-DepChecker":{
+         "0.128":{
+            "5.40.2":{
+               "pass":33
+            },
+            "5.42.0 RC3":{
+               "fail":1
+            }
+         }
+      },
+      "XMLRPC-Lite":{
+         "0.717":{
+            "5.40.2":{
                "pass":1
             },
             "5.42.0 RC3":{
