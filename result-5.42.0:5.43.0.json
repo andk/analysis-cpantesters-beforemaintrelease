@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.43.0":32539,
-      "datetime":"2025-07-29T07:59:35",
+      "5.43.0":33225,
+      "datetime":"2025-07-29T19:59:15",
       "perls":[
          "5.42.0",
          "5.43.0"
       ],
-      "totalrcdists":9930
+      "totalrcdists":9931
    },
    "!CAND":{
       "Acme-CPANAuthors-French":{
@@ -38,7 +38,7 @@
             },
             "5.43.0":{
                "fail":1,
-               "pass":12
+               "pass":19
             }
          }
       },
