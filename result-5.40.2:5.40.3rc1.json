@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.3 RC1":16872,
-      "datetime":"2025-07-28T19:59:56",
+      "5.40.3 RC1":18248,
+      "datetime":"2025-07-29T08:01:22",
       "perls":[
          "5.40.2",
          "5.40.3 RC1"
       ],
-      "totalrcdists":14861
+      "totalrcdists":16180
    },
    "!CAND":{
       "Algorithm-LBFGS":{
