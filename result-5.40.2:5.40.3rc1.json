@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.3 RC1":26443,
-      "datetime":"2025-08-01T08:01:10",
+      "5.40.3 RC1":27809,
+      "datetime":"2025-08-01T20:01:05",
       "perls":[
          "5.40.2",
          "5.40.3 RC1"
       ],
-      "totalrcdists":23288
+      "totalrcdists":24505
    },
    "!CAND":{
       "Algorithm-LBFGS":{
@@ -65,6 +65,16 @@
             "5.40.2":{
                "fail":2,
                "pass":8
+            },
+            "5.40.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Cache-Memcached-GetParserXS":{
+         "0.01":{
+            "5.40.2":{
+               "pass":1
             },
             "5.40.3 RC1":{
                "fail":1
@@ -468,6 +478,17 @@
             }
          }
       },
+      "Number-Equation-XS":{
+         "0.05":{
+            "5.40.2":{
+               "fail":7,
+               "pass":14
+            },
+            "5.40.3 RC1":{
+               "fail":1
+            }
+         }
+      },
       "OpenTelemetry-SDK":{
          "0.027":{
             "5.40.2":{
@@ -584,10 +605,11 @@
       "Test-HTTPStatus":{
          "2.11":{
             "5.40.2":{
-               "pass":7
+               "fail":1,
+               "pass":8
             },
             "5.40.3 RC1":{
-               "fail":4
+               "fail":6
             }
          }
       },
