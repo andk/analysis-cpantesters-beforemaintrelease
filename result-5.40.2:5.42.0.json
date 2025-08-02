@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.0":165595,
-      "datetime":"2025-08-02T07:57:32",
+      "5.42.0":165702,
+      "datetime":"2025-08-02T19:58:31",
       "perls":[
          "5.40.2",
          "5.42.0"
       ],
-      "totalrcdists":32631
+      "totalrcdists":32638
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -1777,6 +1777,17 @@
             }
          }
       },
+      "Genealogy-ChroniclingAmerica":{
+         "0.06":{
+            "5.40.2":{
+               "pass":6
+            },
+            "5.42.0":{
+               "fail":1,
+               "pass":3
+            }
+         }
+      },
       "Geo-Coordinates-Converter":{
          "0.13":{
             "5.40.2":{
@@ -3338,11 +3349,11 @@
       "Net-HTTP":{
          "6.23":{
             "5.40.2":{
-               "pass":46
+               "pass":47
             },
             "5.42.0":{
                "fail":1,
-               "pass":18
+               "pass":19
             }
          }
       },
