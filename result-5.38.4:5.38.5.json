@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.38.5":59904,
-      "datetime":"2025-09-17T07:38:37",
+      "5.38.5":59933,
+      "datetime":"2025-09-17T19:39:34",
       "perls":[
          "5.38.4",
          "5.38.5"
       ],
-      "totalrcdists":27833
+      "totalrcdists":27842
    },
    "!CAND":{
       "Acme-LOLCAT":{
@@ -1122,7 +1122,7 @@
       "Math-Geometry-Planar-GPC-PolygonXS":{
          "0.052":{
             "5.38.4":{
-               "pass":1
+               "pass":2
             },
             "5.38.5":{
                "fail":1
