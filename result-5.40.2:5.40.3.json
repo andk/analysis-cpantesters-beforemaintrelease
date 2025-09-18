@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.3":70811,
-      "datetime":"2025-09-17T19:38:42",
+      "5.40.3":70864,
+      "datetime":"2025-09-18T07:39:30",
       "perls":[
          "5.40.2",
          "5.40.3"
       ],
-      "totalrcdists":30986
+      "totalrcdists":30990
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -1185,6 +1185,17 @@
             }
          }
       },
+      "Math-Geometry-Planar-GPC-PolygonXS":{
+         "0.052":{
+            "5.40.2":{
+               "pass":3
+            },
+            "5.40.3":{
+               "fail":1,
+               "pass":4
+            }
+         }
+      },
       "Math-Geometry-Planar-Offset":{
          "1.05":{
             "5.40.2":{
@@ -1801,6 +1812,16 @@
       },
       "Statistics-DependantTTest":{
          "0.03":{
+            "5.40.2":{
+               "pass":1
+            },
+            "5.40.3":{
+               "fail":1
+            }
+         }
+      },
+      "Statistics-LineFit":{
+         "0.07":{
             "5.40.2":{
                "pass":1
             },
