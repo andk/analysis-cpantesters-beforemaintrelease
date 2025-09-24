@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.3":72989,
-      "datetime":"2025-09-23T19:39:03",
+      "5.40.3":73037,
+      "datetime":"2025-09-24T07:37:32",
       "perls":[
          "5.40.2",
          "5.40.3"
       ],
-      "totalrcdists":31103
+      "totalrcdists":31112
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -1108,6 +1108,15 @@
                "fail":5,
                "pass":2
             }
+         },
+         "0.070_001":{
+            "5.40.2":{
+               "fail":5
+            },
+            "5.40.3":{
+               "fail":1,
+               "pass":2
+            }
          }
       },
       "Mail-Sendmail":{
@@ -1209,7 +1218,7 @@
       "Math-Geometry-Planar-GPC-PolygonXS":{
          "0.052":{
             "5.40.2":{
-               "pass":5
+               "pass":6
             },
             "5.40.3":{
                "fail":1,
@@ -1366,6 +1375,17 @@
             "5.40.3":{
                "fail":1,
                "pass":1
+            }
+         }
+      },
+      "Mojolicious-Plugin-OpenAPI-Modern":{
+         "0.017":{
+            "5.40.2":{
+               "pass":12
+            },
+            "5.40.3":{
+               "fail":1,
+               "pass":2
             }
          }
       },
