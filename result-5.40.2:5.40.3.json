@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.3":84721,
-      "datetime":"2025-10-22T07:37:57",
+      "5.40.3":84795,
+      "datetime":"2025-10-22T19:38:58",
       "perls":[
          "5.40.2",
          "5.40.3"
       ],
-      "totalrcdists":31873
+      "totalrcdists":31883
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -2803,6 +2803,17 @@
       "WWW-Mechanize-Plugin-Snapshot":{
          "0.20":{
             "5.40.2":{},
+            "5.40.3":{
+               "fail":1,
+               "pass":2
+            }
+         }
+      },
+      "WWW-Suffit-AuthDB":{
+         "1.03":{
+            "5.40.2":{
+               "pass":1
+            },
             "5.40.3":{
                "fail":1,
                "pass":2
