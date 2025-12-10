@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.3":97243,
-      "datetime":"2025-12-09T19:37:30",
+      "5.40.3":97280,
+      "datetime":"2025-12-10T07:37:31",
       "perls":[
          "5.40.2",
          "5.40.3"
       ],
-      "totalrcdists":32864
+      "totalrcdists":32873
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -2142,7 +2142,7 @@
       "OPTIMADE-PropertyDefinitions":{
          "0.1.0":{
             "5.40.2":{
-               "pass":5
+               "pass":6
             },
             "5.40.3":{
                "fail":1,
@@ -3096,7 +3096,7 @@
       "Test-LectroTest":{
          "0.5001":{
             "5.40.2":{
-               "pass":16
+               "pass":17
             },
             "5.40.3":{
                "fail":1,
