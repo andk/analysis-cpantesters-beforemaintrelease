@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.1 RC1":31017,
-      "datetime":"2026-03-06T07:12:10",
+      "5.42.1 RC1":31698,
+      "datetime":"2026-03-06T13:11:22",
       "perls":[
          "5.42.0",
          "5.42.1 RC1"
       ],
-      "totalrcdists":23195
+      "totalrcdists":23211
    },
    "!CAND":{
       "Acme-Net-OdiousPlan":{
@@ -1773,7 +1773,7 @@
                "pass":75
             },
             "5.42.1 RC1":{
-               "fail":4
+               "fail":5
             }
          }
       },
