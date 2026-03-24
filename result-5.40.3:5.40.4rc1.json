@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4 RC1":94,
-      "datetime":"2026-03-24T13:06:26",
+      "5.40.4 RC1":104,
+      "datetime":"2026-03-24T19:06:38",
       "perls":[
          "5.40.3",
          "5.40.4 RC1"
       ],
-      "totalrcdists":81
+      "totalrcdists":86
    },
    "!CAND":{
       "IPC-Nosh":{

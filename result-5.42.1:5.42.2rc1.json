@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2 RC1":266,
-      "datetime":"2026-03-24T13:09:19",
+      "5.42.2 RC1":277,
+      "datetime":"2026-03-24T19:09:33",
       "perls":[
          "5.42.1",
          "5.42.2 RC1"
       ],
-      "totalrcdists":242
+      "totalrcdists":246
    },
    "!CAND":{
       "XML-LibXML":{
