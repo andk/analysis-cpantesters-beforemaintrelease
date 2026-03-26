@@ -1,14 +1,24 @@
 {
    "!ALL":{
-      "5.40.4 RC1":436,
-      "datetime":"2026-03-26T13:08:24",
+      "5.40.4 RC1":444,
+      "datetime":"2026-03-26T19:08:13",
       "perls":[
          "5.40.3",
          "5.40.4 RC1"
       ],
-      "totalrcdists":293
+      "totalrcdists":297
    },
    "!CAND":{
+      "Data-HashMap-Shared":{
+         "0.02":{
+            "5.40.3":{
+               "pass":1
+            },
+            "5.40.4 RC1":{
+               "fail":1
+            }
+         }
+      },
       "IPC-Nosh":{
          "0.01-TRIAL":{
             "5.40.3":{
