@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4 RC1":448,
-      "datetime":"2026-03-27T07:07:45",
+      "5.40.4 RC1":449,
+      "datetime":"2026-03-27T13:08:18",
       "perls":[
          "5.40.3",
          "5.40.4 RC1"
       ],
-      "totalrcdists":299
+      "totalrcdists":300
    },
    "!CAND":{
       "Data-HashMap-Shared":{
