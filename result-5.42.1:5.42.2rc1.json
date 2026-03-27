@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2 RC1":607,
-      "datetime":"2026-03-27T13:11:10",
+      "5.42.2 RC1":636,
+      "datetime":"2026-03-27T19:11:41",
       "perls":[
          "5.42.1",
          "5.42.2 RC1"
       ],
-      "totalrcdists":422
+      "totalrcdists":428
    },
    "!CAND":{
       "Dancer2-Plugin-REST":{
@@ -45,11 +45,11 @@
       "XML-LibXML":{
          "2.0210":{
             "5.42.1":{
-               "fail":2,
+               "fail":3,
                "pass":3
             },
             "5.42.2 RC1":{
-               "fail":2
+               "fail":3
             }
          }
       },
