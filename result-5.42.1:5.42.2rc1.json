@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2 RC1":544,
-      "datetime":"2026-03-26T19:11:08",
+      "5.42.2 RC1":552,
+      "datetime":"2026-03-27T01:11:43",
       "perls":[
          "5.42.1",
          "5.42.2 RC1"
       ],
-      "totalrcdists":397
+      "totalrcdists":402
    },
    "!CAND":{
       "Dancer2-Plugin-REST":{
@@ -55,7 +55,7 @@
       "XML-Twig":{
          "3.54":{
             "5.42.1":{
-               "fail":2,
+               "fail":3,
                "pass":6
             },
             "5.42.2 RC1":{
