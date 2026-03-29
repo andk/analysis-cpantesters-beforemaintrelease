@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4 RC1":547,
-      "datetime":"2026-03-29T07:08:45",
+      "5.40.4 RC1":595,
+      "datetime":"2026-03-29T13:08:30",
       "perls":[
          "5.40.3",
          "5.40.4 RC1"
       ],
-      "totalrcdists":344
+      "totalrcdists":359
    },
    "!CAND":{
       "Data-HashMap-Shared":{
@@ -22,7 +22,7 @@
       "IPC-Nosh":{
          "0.01-TRIAL":{
             "5.40.3":{
-               "fail":2,
+               "fail":3,
                "pass":3
             },
             "5.40.4 RC1":{
@@ -33,7 +33,7 @@
       "JSON-WebToken":{
          "0.10":{
             "5.40.3":{
-               "fail":5,
+               "fail":6,
                "pass":9
             },
             "5.40.4 RC1":{
@@ -44,7 +44,7 @@
       "RedisDB":{
          "2.57":{
             "5.40.3":{
-               "pass":5
+               "pass":6
             },
             "5.40.4 RC1":{
                "fail":1
