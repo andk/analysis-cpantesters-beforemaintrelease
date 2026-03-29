@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2 RC1":708,
-      "datetime":"2026-03-29T01:11:07",
+      "5.42.2 RC1":709,
+      "datetime":"2026-03-29T07:11:47",
       "perls":[
          "5.42.1",
          "5.42.2 RC1"
       ],
-      "totalrcdists":461
+      "totalrcdists":462
    },
    "!CAND":{
       "Dancer2-Plugin-REST":{
