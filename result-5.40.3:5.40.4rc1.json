@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4 RC1":595,
-      "datetime":"2026-03-29T19:12:39",
+      "5.40.4 RC1":598,
+      "datetime":"2026-03-30T01:08:57",
       "perls":[
          "5.40.3",
          "5.40.4 RC1"
       ],
-      "totalrcdists":359
+      "totalrcdists":362
    },
    "!CAND":{
       "Data-HashMap-Shared":{
@@ -22,7 +22,7 @@
       "IPC-Nosh":{
          "0.01-TRIAL":{
             "5.40.3":{
-               "fail":3,
+               "fail":4,
                "pass":3
             },
             "5.40.4 RC1":{
@@ -44,7 +44,7 @@
       "RedisDB":{
          "2.57":{
             "5.40.3":{
-               "pass":6
+               "pass":7
             },
             "5.40.4 RC1":{
                "fail":1
