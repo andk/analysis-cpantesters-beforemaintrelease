@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":2764,
-      "datetime":"2026-04-03T07:03:26",
+      "5.40.4":2885,
+      "datetime":"2026-04-03T13:03:20",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":1486
+      "totalrcdists":1502
    },
    "!CAND":{
       "Class-DBI-ClassGenerator":{
@@ -169,7 +169,7 @@
             },
             "5.40.4":{
                "fail":1,
-               "pass":2
+               "pass":3
             }
          }
       },
