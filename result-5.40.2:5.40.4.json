@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":4467,
-      "datetime":"2026-04-05T01:06:35",
+      "5.40.4":4660,
+      "datetime":"2026-04-05T07:06:28",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":1904
+      "totalrcdists":1992
    },
    "!CAND":{
       "AnyEvent-WebSocket-Server":{
@@ -132,11 +132,11 @@
       "NetBox-Client":{
          "0.1.7":{
             "5.40.2":{
-               "pass":3
+               "pass":4
             },
             "5.40.4":{
                "fail":3,
-               "pass":1
+               "pass":2
             }
          }
       },
