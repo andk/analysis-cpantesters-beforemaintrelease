@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":28375,
-      "datetime":"2026-04-10T19:07:42",
+      "5.42.2":28929,
+      "datetime":"2026-04-11T01:08:04",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":14192
+      "totalrcdists":14200
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -715,7 +715,7 @@
       "DateTime-Locale-FromCLDR":{
          "v0.8.0":{
             "5.42.0":{
-               "fail":11,
+               "fail":12,
                "pass":10
             },
             "5.42.2":{
