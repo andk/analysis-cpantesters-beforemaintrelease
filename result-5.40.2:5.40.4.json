@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":12645,
-      "datetime":"2026-04-14T19:06:25",
+      "5.40.4":13390,
+      "datetime":"2026-04-15T01:03:14",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":5020
+      "totalrcdists":5637
    },
    "!CAND":{
       "AnyEvent-WebSocket-Server":{
@@ -684,6 +684,17 @@
             }
          }
       },
+      "Term-ANSIEncode":{
+         "1.99":{
+            "5.40.2":{
+               "fail":2,
+               "pass":2
+            },
+            "5.40.4":{
+               "fail":1
+            }
+         }
+      },
       "Test-HTTP-AnyEvent-Server":{
          "0.013":{
             "5.40.2":{
@@ -702,7 +713,7 @@
             },
             "5.40.4":{
                "fail":1,
-               "pass":9
+               "pass":10
             }
          }
       },
