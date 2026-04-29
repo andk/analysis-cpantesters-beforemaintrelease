@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":68557,
-      "datetime":"2026-04-29T07:08:10",
+      "5.42.2":68627,
+      "datetime":"2026-04-29T13:08:45",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":29820
+      "totalrcdists":29827
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -699,11 +699,11 @@
          },
          "0.088_002":{
             "5.42.0":{
-               "pass":6
+               "pass":7
             },
             "5.42.2":{
                "fail":2,
-               "pass":3
+               "pass":4
             }
          }
       },
@@ -2293,11 +2293,11 @@
       "Mojo-SQLite-Database-Role-InsertHelpers":{
          "0.001":{
             "5.42.0":{
-               "fail":2,
+               "fail":3,
                "pass":5
             },
             "5.42.2":{
-               "fail":4
+               "fail":5
             }
          }
       },
