@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":69100,
-      "datetime":"2026-05-01T01:09:10",
+      "5.42.2":69315,
+      "datetime":"2026-05-01T07:05:18",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":29883
+      "totalrcdists":29889
    },
    "!CAND":{
       "Acme-DeepThoughts":{
