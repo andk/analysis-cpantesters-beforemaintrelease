@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":71087,
-      "datetime":"2026-05-04T19:09:06",
+      "5.42.2":71204,
+      "datetime":"2026-05-05T01:09:23",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":29961
+      "totalrcdists":29974
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -1561,11 +1561,11 @@
       "Game-HexDescribe":{
          "1.04":{
             "5.42.0":{
-               "pass":3
+               "pass":4
             },
             "5.42.2":{
                "fail":1,
-               "pass":6
+               "pass":7
             }
          }
       },
