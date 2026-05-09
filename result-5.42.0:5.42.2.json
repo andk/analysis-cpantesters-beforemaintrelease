@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":72827,
-      "datetime":"2026-05-09T13:09:15",
+      "5.42.2":72923,
+      "datetime":"2026-05-09T19:04:59",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":30136
+      "totalrcdists":30150
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -2414,6 +2414,45 @@
             },
             "5.42.2":{
                "fail":1
+            }
+         }
+      },
+      "Mojo-Collection-Role-GroupBy":{
+         "0.003":{
+            "5.42.0":{
+               "pass":7
+            },
+            "5.42.2":{
+               "fail":2,
+               "pass":3
+            }
+         }
+      },
+      "Mojo-Collection-Role-Iterable":{
+         "0.001":{
+            "5.42.0":{
+               "pass":1
+            },
+            "5.42.2":{
+               "fail":1
+            }
+         },
+         "0.003":{
+            "5.42.0":{
+               "pass":3
+            },
+            "5.42.2":{
+               "fail":2
+            }
+         }
+      },
+      "Mojo-DOM-Role-AttrAccessors":{
+         "0.001":{
+            "5.42.0":{
+               "pass":3
+            },
+            "5.42.2":{
+               "fail":2
             }
          }
       },
