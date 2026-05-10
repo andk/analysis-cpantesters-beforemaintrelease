@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":45945,
-      "datetime":"2026-05-10T01:04:16",
+      "5.40.4":45973,
+      "datetime":"2026-05-10T07:06:23",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":31323
+      "totalrcdists":31325
    },
    "!CAND":{
       "Alien-YAMLScript":{
