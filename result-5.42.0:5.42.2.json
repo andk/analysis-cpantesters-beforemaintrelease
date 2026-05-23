@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":78571,
-      "datetime":"2026-05-23T07:08:55",
+      "5.42.2":78732,
+      "datetime":"2026-05-23T13:08:40",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":30552
+      "totalrcdists":30564
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -1486,11 +1486,11 @@
       "Email-Address-List":{
          "0.07":{
             "5.42.0":{
-               "pass":6
+               "pass":7
             },
             "5.42.2":{
                "fail":1,
-               "pass":5
+               "pass":6
             }
          }
       },
@@ -3018,11 +3018,11 @@
       "POE-Component-Resolver":{
          "0.921":{
             "5.42.0":{
-               "pass":28
+               "pass":29
             },
             "5.42.2":{
                "fail":2,
-               "pass":5
+               "pass":10
             }
          }
       },
