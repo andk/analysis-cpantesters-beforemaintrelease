@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":48566,
-      "datetime":"2026-05-27T13:06:33",
+      "5.40.4":48651,
+      "datetime":"2026-05-27T19:03:05",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":31775
+      "totalrcdists":31795
    },
    "!CAND":{
       "Alien-YAMLScript":{
@@ -139,6 +139,16 @@
             },
             "5.40.4":{
                "fail":1
+            }
+         }
+      },
+      "Catalyst-Plugin-OpenIDConnect":{
+         "0.09":{
+            "5.40.2":{
+               "pass":1
+            },
+            "5.40.4":{
+               "fail":2
             }
          }
       },
