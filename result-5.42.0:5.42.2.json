@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":80402,
-      "datetime":"2026-05-29T07:09:28",
+      "5.42.2":80453,
+      "datetime":"2026-05-29T13:09:10",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":30713
+      "totalrcdists":30714
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -3121,7 +3121,7 @@
       "Perinci-CmdLine-Lite":{
          "1.929":{
             "5.42.0":{
-               "fail":5,
+               "fail":6,
                "pass":51
             },
             "5.42.2":{
