@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":50625,
-      "datetime":"2026-06-05T19:07:10",
+      "5.40.4":50660,
+      "datetime":"2026-06-06T01:08:11",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":32080
+      "totalrcdists":32086
    },
    "!CAND":{
       "Alien-YAMLScript":{
@@ -92,6 +92,15 @@
             }
          }
       },
+      "Async-Event-Interval":{
+         "1.13_01":{
+            "5.40.2":{},
+            "5.40.4":{
+               "fail":1,
+               "pass":2
+            }
+         }
+      },
       "Async-Redis":{
          "0.001006":{
             "5.40.2":{
@@ -143,12 +152,12 @@
          }
       },
       "Catalyst-Plugin-OpenIDConnect":{
-         "0.09":{
+         "0.10":{
             "5.40.2":{
-               "pass":1
+               "fail":1
             },
             "5.40.4":{
-               "fail":2,
+               "fail":1,
                "pass":1
             }
          },
@@ -717,10 +726,11 @@
       "Dist-Zilla-Plugin-AutomationPolicy":{
          "v0.1.0":{
             "5.40.2":{
-               "pass":2
+               "pass":3
             },
             "5.40.4":{
-               "fail":2
+               "fail":2,
+               "pass":1
             }
          }
       },
@@ -1673,17 +1683,6 @@
             "5.40.4":{
                "fail":1,
                "pass":2
-            }
-         }
-      },
-      "Parallel-ForkManager":{
-         "2.04":{
-            "5.40.2":{
-               "pass":27
-            },
-            "5.40.4":{
-               "fail":1,
-               "pass":11
             }
          }
       },
