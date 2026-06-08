@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":84235,
-      "datetime":"2026-06-08T01:10:36",
+      "5.42.2":84374,
+      "datetime":"2026-06-08T07:06:35",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":31008
+      "totalrcdists":31017
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -360,6 +360,17 @@
             "5.42.2":{
                "fail":2,
                "pass":2
+            }
+         }
+      },
+      "CGI-Application-Plugin-Config-Std":{
+         "1.003":{
+            "5.42.0":{
+               "fail":1,
+               "pass":1
+            },
+            "5.42.2":{
+               "fail":1
             }
          }
       },
