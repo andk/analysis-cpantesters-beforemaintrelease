@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.2":84164,
-      "datetime":"2026-06-07T19:09:00",
+      "5.42.2":84235,
+      "datetime":"2026-06-08T01:10:36",
       "perls":[
          "5.42.0",
          "5.42.2"
       ],
-      "totalrcdists":31000
+      "totalrcdists":31008
    },
    "!CAND":{
       "Acme-DeepThoughts":{
@@ -711,11 +711,11 @@
       "Cpanel-JSON-XS":{
          "4.42":{
             "5.42.0":{
-               "pass":6
+               "pass":7
             },
             "5.42.2":{
                "fail":1,
-               "pass":3
+               "pass":4
             }
          }
       },
@@ -913,7 +913,8 @@
       "DBIx-Class-Schema-GraphQL":{
          "v0.0.1":{
             "5.42.0":{
-               "pass":2
+               "fail":1,
+               "pass":3
             },
             "5.42.2":{
                "fail":1
