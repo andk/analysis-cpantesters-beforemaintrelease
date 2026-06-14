@@ -1,14 +1,25 @@
 {
    "!ALL":{
-      "5.40.4":52091,
-      "datetime":"2026-06-13T19:07:08",
+      "5.40.4":52132,
+      "datetime":"2026-06-14T01:04:22",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":32346
+      "totalrcdists":32356
    },
    "!CAND":{
+      "Alien-YAMLScript":{
+         "0.2.19":{
+            "5.40.2":{
+               "fail":4
+            },
+            "5.40.4":{
+               "fail":13,
+               "pass":1
+            }
+         }
+      },
       "AnyEvent-WebSocket-Server":{
          "0.10":{
             "5.40.2":{
