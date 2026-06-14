@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.43.11":342665,
-      "datetime":"2026-06-14T07:04:37",
+      "5.43.11":342701,
+      "datetime":"2026-06-14T13:04:33",
       "perls":[
          "5.42.0",
          "5.43.11"
       ],
-      "totalrcdists":24336
+      "totalrcdists":24343
    },
    "!CAND":{
       "AI-NeuralNet-Simple":{
@@ -1421,7 +1421,7 @@
       "DateTime-Format-Unicode":{
          "v0.3.0":{
             "5.42.0":{
-               "fail":6,
+               "fail":7,
                "pass":11
             },
             "5.43.11":{
