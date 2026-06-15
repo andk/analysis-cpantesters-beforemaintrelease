@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.43.11":342743,
-      "datetime":"2026-06-15T01:05:00",
+      "5.43.11":342810,
+      "datetime":"2026-06-15T07:04:49",
       "perls":[
          "5.42.0",
          "5.43.11"
       ],
-      "totalrcdists":24353
+      "totalrcdists":24355
    },
    "!CAND":{
       "AI-NeuralNet-Simple":{
@@ -749,7 +749,7 @@
       "Catalyst-Plugin-Session-Store-Delegate":{
          "0.06":{
             "5.42.0":{
-               "pass":11
+               "pass":13
             },
             "5.43.11":{
                "fail":1,
