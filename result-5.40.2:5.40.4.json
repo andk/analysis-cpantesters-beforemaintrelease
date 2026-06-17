@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":52813,
-      "datetime":"2026-06-17T13:03:37",
+      "5.40.4":52879,
+      "datetime":"2026-06-17T19:03:38",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":32430
+      "totalrcdists":32440
    },
    "!CAND":{
       "AnyEvent-WebSocket-Server":{
@@ -351,7 +351,7 @@
                "pass":1
             },
             "5.40.4":{
-               "fail":3
+               "fail":4
             }
          }
       },
