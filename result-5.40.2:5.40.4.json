@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":53135,
-      "datetime":"2026-06-20T01:08:45",
+      "5.40.4":53139,
+      "datetime":"2026-06-20T07:07:00",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":32504
+      "totalrcdists":32506
    },
    "!CAND":{
       "AnyEvent-WebSocket-Server":{
@@ -1564,6 +1564,15 @@
             "5.40.4":{
                "fail":1,
                "pass":8
+            }
+         }
+      },
+      "Mojolicious-Plugin-BarefootJS":{
+         "0.15.1":{
+            "5.40.2":{},
+            "5.40.4":{
+               "fail":1,
+               "pass":1
             }
          }
       },
