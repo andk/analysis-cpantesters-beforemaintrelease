@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.4":56633,
-      "datetime":"2026-07-03T07:06:47",
+      "5.40.4":56640,
+      "datetime":"2026-07-03T13:06:59",
       "perls":[
          "5.40.2",
          "5.40.4"
       ],
-      "totalrcdists":32950
+      "totalrcdists":32951
    },
    "!CAND":{
       "Aion-Fs":{
@@ -14,6 +14,15 @@
             "5.40.2":{
                "pass":4
             },
+            "5.40.4":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
+      "Algorithm-Classifier-IsolationForest":{
+         "0.3.0":{
+            "5.40.2":{},
             "5.40.4":{
                "fail":1,
                "pass":1
