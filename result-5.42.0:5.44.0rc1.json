@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.44.0 RC1":139117,
-      "datetime":"2026-07-11T19:04:26",
+      "5.44.0 RC1":139156,
+      "datetime":"2026-07-12T01:04:23",
       "perls":[
          "5.42.0",
          "5.44.0 RC1"
       ],
-      "totalrcdists":24742
+      "totalrcdists":24758
    },
    "!CAND":{
       "Acme-CPANAuthors-Nonhuman":{
