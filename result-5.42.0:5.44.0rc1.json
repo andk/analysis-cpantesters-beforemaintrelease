@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.44.0 RC1":139229,
-      "datetime":"2026-07-12T07:04:04",
+      "5.44.0 RC1":139387,
+      "datetime":"2026-07-12T13:04:06",
       "perls":[
          "5.42.0",
          "5.44.0 RC1"
       ],
-      "totalrcdists":24762
+      "totalrcdists":24776
    },
    "!CAND":{
       "Acme-CPANAuthors-Nonhuman":{
@@ -453,7 +453,7 @@
             },
             "5.44.0 RC1":{
                "fail":1,
-               "pass":6
+               "pass":7
             }
          }
       },
@@ -550,7 +550,7 @@
             },
             "5.44.0 RC1":{
                "fail":1,
-               "pass":13
+               "pass":14
             }
          }
       },
@@ -3723,6 +3723,7 @@
       "WWW-Pastebin-PastebinCa-Create":{
          "0.004":{
             "5.42.0":{
+               "fail":1,
                "pass":8
             },
             "5.44.0 RC1":{
