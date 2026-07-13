@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.44.0 RC1":139721,
-      "datetime":"2026-07-13T01:04:13",
+      "5.44.0 RC1":139780,
+      "datetime":"2026-07-13T07:02:18",
       "perls":[
          "5.42.0",
          "5.44.0 RC1"
       ],
-      "totalrcdists":24820
+      "totalrcdists":24823
    },
    "!CAND":{
       "Acme-CPANAuthors-Nonhuman":{
@@ -4047,6 +4047,7 @@
       "YAML-AppConfig":{
          "0.19":{
             "5.42.0":{
+               "fail":1,
                "pass":7
             },
             "5.44.0 RC1":{
