@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3 RC1":355,
-      "datetime":"2026-07-24T05:59:31",
+      "5.42.3 RC1":521,
+      "datetime":"2026-07-24T11:59:29",
       "perls":[
          "5.42.2",
          "5.42.3 RC1"
       ],
-      "totalrcdists":194
+      "totalrcdists":267
    },
    "!CAND":{
       "EV-Redis":{
