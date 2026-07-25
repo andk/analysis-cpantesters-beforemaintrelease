@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":14498,
-      "datetime":"2026-07-25T06:00:58",
+      "5.45.1":14528,
+      "datetime":"2026-07-25T12:00:46",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7593
+      "totalrcdists":7597
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
