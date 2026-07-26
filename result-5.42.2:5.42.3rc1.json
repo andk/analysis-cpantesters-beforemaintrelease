@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3 RC1":3201,
-      "datetime":"2026-07-26T00:00:09",
+      "5.42.3 RC1":3795,
+      "datetime":"2026-07-26T05:59:38",
       "perls":[
          "5.42.2",
          "5.42.3 RC1"
       ],
-      "totalrcdists":2347
+      "totalrcdists":2852
    },
    "!CAND":{
       "App-Sqitch":{
