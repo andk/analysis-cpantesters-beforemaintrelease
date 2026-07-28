@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":16328,
-      "datetime":"2026-07-27T23:59:52",
+      "5.45.1":16454,
+      "datetime":"2026-07-28T06:01:24",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7643
+      "totalrcdists":7657
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -88,6 +88,17 @@
             },
             "5.45.1":{
                "fail":1
+            }
+         }
+      },
+      "ExtUtils-CppGuess":{
+         "0.271":{
+            "5.44.0":{
+               "pass":9
+            },
+            "5.45.1":{
+               "fail":1,
+               "pass":2
             }
          }
       },
