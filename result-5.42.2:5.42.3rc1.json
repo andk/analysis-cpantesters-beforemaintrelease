@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3 RC1":12866,
-      "datetime":"2026-07-31T05:56:26",
+      "5.42.3 RC1":13315,
+      "datetime":"2026-07-31T11:59:40",
       "perls":[
          "5.42.2",
          "5.42.3 RC1"
       ],
-      "totalrcdists":11097
+      "totalrcdists":11447
    },
    "!CAND":{
       "Acme-Spider":{
@@ -56,6 +56,17 @@
             "5.42.2":{
                "fail":3,
                "pass":3
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Array-GroupBy":{
+         "v0.0.4":{
+            "5.42.2":{
+               "fail":1,
+               "pass":1
             },
             "5.42.3 RC1":{
                "fail":1
@@ -502,6 +513,17 @@
             }
          }
       },
+      "MooseX-Traits-Attribute-MergeHashRef":{
+         "1.002":{
+            "5.42.2":{
+               "fail":1,
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Net-Dict":{
          "2.22":{
             "5.42.2":{
@@ -518,6 +540,27 @@
             "5.42.2":{
                "fail":1,
                "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Net-Nostr":{
+         "2.002000":{
+            "5.42.2":{
+               "fail":1,
+               "pass":2
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "OpenTelemetry-Instrumentation-namespace":{
+         "0.034":{
+            "5.42.2":{
+               "pass":2
             },
             "5.42.3 RC1":{
                "fail":1
@@ -588,6 +631,17 @@
       "Promise-AsyncAwait":{
          "0.01":{
             "5.42.2":{
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "RDF-Notation3":{
+         "0.91":{
+            "5.42.2":{
+               "fail":2,
                "pass":1
             },
             "5.42.3 RC1":{
@@ -774,10 +828,30 @@
             }
          }
       },
+      "Thread-Queue-Any":{
+         "1.17":{
+            "5.42.2":{
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Thread-Queue-Duplex":{
          "0.92":{
             "5.42.2":{
                "fail":1,
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Thread-SharedTreeSet":{
+         "0.01":{
+            "5.42.2":{
                "pass":1
             },
             "5.42.3 RC1":{
