@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3 RC1":13315,
-      "datetime":"2026-07-31T11:59:40",
+      "5.42.3 RC1":13610,
+      "datetime":"2026-07-31T17:59:19",
       "perls":[
          "5.42.2",
          "5.42.3 RC1"
       ],
-      "totalrcdists":11447
+      "totalrcdists":11689
    },
    "!CAND":{
       "Acme-Spider":{
@@ -116,6 +116,17 @@
       },
       "Catalyst-View-Mason":{
          "0.19":{
+            "5.42.2":{
+               "fail":1,
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Class-Builder":{
+         "1.010":{
             "5.42.2":{
                "fail":1,
                "pass":1
@@ -891,11 +902,32 @@
             }
          }
       },
+      "WebService-Libris":{
+         "0.08":{
+            "5.42.2":{
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
       "WebService-Pushover":{
          "v1.0.0":{
             "5.42.2":{
                "fail":1,
                "pass":2
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "WebService-Uptrack":{
+         "v0.0.2":{
+            "5.42.2":{
+               "fail":1,
+               "pass":1
             },
             "5.42.3 RC1":{
                "fail":1

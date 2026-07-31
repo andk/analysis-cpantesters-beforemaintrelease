@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5 RC1":10608,
-      "datetime":"2026-07-31T11:57:49",
+      "5.40.5 RC1":11143,
+      "datetime":"2026-07-31T17:57:41",
       "perls":[
          "5.40.4",
          "5.40.5 RC1"
       ],
-      "totalrcdists":8735
+      "totalrcdists":9106
    },
    "!CAND":{
       "Affix":{
@@ -483,6 +483,16 @@
       },
       "Test-Approximate":{
          "0.009":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Test-Reporter-Transport-Net-SMTP-SSL":{
+         "0.1.2":{
             "5.40.4":{
                "pass":1
             },
