@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":18785,
-      "datetime":"2026-08-01T00:01:57",
+      "5.45.1":18842,
+      "datetime":"2026-08-01T06:01:08",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7733
+      "totalrcdists":7742
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -355,7 +355,7 @@
       "Type-Guess":{
          "0.006":{
             "5.44.0":{
-               "fail":7
+               "fail":8
             },
             "5.45.1":{
                "fail":7,
