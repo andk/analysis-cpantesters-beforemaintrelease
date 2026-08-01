@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":18690,
-      "datetime":"2026-07-31T18:01:11",
+      "5.45.1":18785,
+      "datetime":"2026-08-01T00:01:57",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7728
+      "totalrcdists":7733
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -220,7 +220,7 @@
       "Mooish-AttributeBuilder":{
          "1.003":{
             "5.44.0":{
-               "pass":8
+               "pass":9
             },
             "5.45.1":{
                "fail":1,
@@ -355,7 +355,7 @@
       "Type-Guess":{
          "0.006":{
             "5.44.0":{
-               "fail":6
+               "fail":7
             },
             "5.45.1":{
                "fail":7,
