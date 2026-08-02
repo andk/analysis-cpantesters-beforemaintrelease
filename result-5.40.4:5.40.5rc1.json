@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5 RC1":13826,
-      "datetime":"2026-08-02T11:57:37",
+      "5.40.5 RC1":14156,
+      "datetime":"2026-08-02T17:57:44",
       "perls":[
          "5.40.4",
          "5.40.5 RC1"
       ],
-      "totalrcdists":11502
+      "totalrcdists":11817
    },
    "!CAND":{
       "Acme-Free-Advice-Unsolicited":{
@@ -610,6 +610,17 @@
       "Test-Reporter-Transport-Net-SMTP-SSL":{
          "0.1.2":{
             "5.40.4":{
+               "pass":1
+            },
+            "5.40.5 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Text-AsciidocDown":{
+         "0.1.0":{
+            "5.40.4":{
+               "fail":1,
                "pass":1
             },
             "5.40.5 RC1":{
