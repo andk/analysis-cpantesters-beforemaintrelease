@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3 RC1":15094,
-      "datetime":"2026-08-01T17:59:50",
+      "5.42.3 RC1":15575,
+      "datetime":"2026-08-02T00:06:19",
       "perls":[
          "5.42.2",
          "5.42.3 RC1"
       ],
-      "totalrcdists":12973
+      "totalrcdists":13446
    },
    "!CAND":{
       "Acme-Spider":{
@@ -160,6 +160,17 @@
       },
       "Class-Builder":{
          "1.010":{
+            "5.42.2":{
+               "fail":1,
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Class-DBI-MSAccess":{
+         "0.10.2":{
             "5.42.2":{
                "fail":1,
                "pass":1
@@ -346,6 +357,17 @@
             }
          }
       },
+      "FFI-Platypus-Lang-Rust":{
+         "0.17":{
+            "5.42.2":{
+               "fail":2,
+               "pass":2
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
       "File-Find-Rule-Type":{
          "0.05":{
             "5.42.2":{
@@ -372,6 +394,16 @@
          "0.06":{
             "5.42.2":{
                "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Google-ISBNNumbers":{
+         "1.01":{
+            "5.42.2":{
+               "pass":8
             },
             "5.42.3 RC1":{
                "fail":1
@@ -654,6 +686,16 @@
             }
          }
       },
+      "Net-Routing":{
+         "0.44":{
+            "5.42.2":{
+               "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
       "OpenTelemetry-Instrumentation-namespace":{
          "0.034":{
             "5.42.2":{
@@ -728,6 +770,17 @@
       "Plack-Middleware-ComboLoader":{
          "0.04":{
             "5.42.2":{
+               "pass":2
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Plack-Middleware-Static-Precompressed":{
+         "1.002":{
+            "5.42.2":{
+               "fail":2,
                "pass":2
             },
             "5.42.3 RC1":{
@@ -1065,8 +1118,8 @@
       "WebDyne":{
          "3.005":{
             "5.42.2":{
-               "fail":2,
-               "pass":1
+               "fail":4,
+               "pass":2
             },
             "5.42.3 RC1":{
                "fail":1
@@ -1121,6 +1174,16 @@
             "5.42.2":{
                "fail":2,
                "pass":1
+            },
+            "5.42.3 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "XMLNews-HTMLTemplate":{
+         "0.01":{
+            "5.42.2":{
+               "pass":2
             },
             "5.42.3 RC1":{
                "fail":1
