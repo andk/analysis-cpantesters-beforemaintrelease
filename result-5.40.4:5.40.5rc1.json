@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5 RC1":12908,
-      "datetime":"2026-08-02T00:04:12",
+      "5.40.5 RC1":13190,
+      "datetime":"2026-08-02T05:54:29",
       "perls":[
          "5.40.4",
          "5.40.5 RC1"
       ],
-      "totalrcdists":10617
+      "totalrcdists":10883
    },
    "!CAND":{
       "Acme-Free-Advice-Unsolicited":{
@@ -483,6 +483,16 @@
             }
          }
       },
+      "Parse-CPinfo":{
+         "0.882":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5 RC1":{
+               "fail":1
+            }
+         }
+      },
       "Perinci-Sub-DepChecker":{
          "0.128":{
             "5.40.4":{
@@ -651,6 +661,16 @@
       },
       "Tk-MouseGesture":{
          "0.03":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5 RC1":{
+               "fail":1
+            }
+         }
+      },
+      "Tk-RotCanvas":{
+         "1.2":{
             "5.40.4":{
                "pass":1
             },
