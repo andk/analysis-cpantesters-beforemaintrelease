@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3":696,
-      "datetime":"2026-08-04T13:09:18",
+      "5.42.3":720,
+      "datetime":"2026-08-04T19:09:14",
       "perls":[
          "5.42.2",
          "5.42.3"
       ],
-      "totalrcdists":645
+      "totalrcdists":658
    },
    "!CAND":{
       "POE-Component-Server-JSONUnix":{
