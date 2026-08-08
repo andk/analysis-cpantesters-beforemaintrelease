@@ -1,14 +1,24 @@
 {
    "!ALL":{
-      "5.40.5":1216,
-      "datetime":"2026-08-08T07:07:52",
+      "5.40.5":1280,
+      "datetime":"2026-08-08T13:08:13",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":837
+      "totalrcdists":841
    },
    "!CAND":{
+      "Catalyst-Plugin-Session-Store-Delegate":{
+         "0.06":{
+            "5.40.4":{
+               "pass":2
+            },
+            "5.40.5":{
+               "fail":1
+            }
+         }
+      },
       "PApp-SQL":{
          "2.002":{
             "5.40.4":{
