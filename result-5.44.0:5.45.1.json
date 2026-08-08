@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":21379,
-      "datetime":"2026-08-08T13:11:41",
+      "5.45.1":21433,
+      "datetime":"2026-08-08T19:11:30",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7878
+      "totalrcdists":7882
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -211,10 +211,11 @@
       "LWP-ConsoleLogger":{
          "1.000002":{
             "5.44.0":{
-               "pass":2
+               "pass":3
             },
             "5.45.1":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
