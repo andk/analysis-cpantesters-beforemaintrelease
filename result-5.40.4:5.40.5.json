@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":1516,
-      "datetime":"2026-08-10T07:04:39",
+      "5.40.5":1528,
+      "datetime":"2026-08-10T13:07:57",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":941
+      "totalrcdists":952
    },
    "!CAND":{
       "Catalyst-Plugin-Session-Store-Delegate":{
@@ -22,6 +22,7 @@
       "DBIx-Loop":{
          "0.02":{
             "5.40.4":{
+               "fail":1,
                "pass":2
             },
             "5.40.5":{
