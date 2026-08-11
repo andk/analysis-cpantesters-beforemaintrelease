@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":1609,
-      "datetime":"2026-08-11T01:08:29",
+      "5.40.5":1665,
+      "datetime":"2026-08-11T07:07:39",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":992
+      "totalrcdists":994
    },
    "!CAND":{
       "Catalyst-Plugin-Session-Store-Delegate":{
