@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":21678,
-      "datetime":"2026-08-10T19:11:18",
+      "5.45.1":21777,
+      "datetime":"2026-08-11T01:12:08",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7912
+      "totalrcdists":7920
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -127,7 +127,7 @@
       "ExtUtils-F77":{
          "1.26":{
             "5.44.0":{
-               "fail":4,
+               "fail":5,
                "pass":4
             },
             "5.45.1":{
