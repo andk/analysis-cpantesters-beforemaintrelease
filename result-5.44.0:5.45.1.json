@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":22318,
-      "datetime":"2026-08-14T01:11:26",
+      "5.45.1":22321,
+      "datetime":"2026-08-14T07:11:58",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":7989
+      "totalrcdists":7991
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -211,7 +211,7 @@
       "JSON-WebToken":{
          "0.10":{
             "5.44.0":{
-               "fail":7
+               "fail":8
             },
             "5.45.1":{
                "fail":3,
