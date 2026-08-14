@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":2079,
-      "datetime":"2026-08-14T07:08:20",
+      "5.40.5":2433,
+      "datetime":"2026-08-14T13:04:31",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":1154
+      "totalrcdists":1240
    },
    "!CAND":{
       "Catalyst-Plugin-Session-Store-Delegate":{
@@ -49,6 +49,17 @@
             },
             "5.40.5":{
                "fail":1
+            }
+         }
+      },
+      "Lemonldap-NG-Common":{
+         "2.23.3":{
+            "5.40.4":{
+               "pass":3
+            },
+            "5.40.5":{
+               "fail":1,
+               "pass":2
             }
          }
       },
