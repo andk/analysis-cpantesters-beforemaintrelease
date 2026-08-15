@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":22421,
-      "datetime":"2026-08-15T01:11:34",
+      "5.45.1":22502,
+      "datetime":"2026-08-15T07:12:00",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":8002
+      "totalrcdists":8012
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -83,7 +83,7 @@
       "Devel-Cover":{
          "1.52":{
             "5.44.0":{
-               "pass":34
+               "pass":35
             },
             "5.45.1":{
                "fail":1,
@@ -232,6 +232,17 @@
       },
       "LWP-ConsoleLogger":{
          "1.000002":{
+            "5.44.0":{
+               "pass":3
+            },
+            "5.45.1":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
+      "Lemonldap-NG-Common":{
+         "2.23.3":{
             "5.44.0":{
                "pass":3
             },
