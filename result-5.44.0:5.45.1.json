@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":22565,
-      "datetime":"2026-08-16T01:07:47",
+      "5.45.1":22643,
+      "datetime":"2026-08-16T07:07:49",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":8029
+      "totalrcdists":8037
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -350,10 +350,11 @@
       "PDF-Make":{
          "0.10":{
             "5.44.0":{
+               "fail":1,
                "pass":1
             },
             "5.45.1":{
-               "fail":1
+               "fail":2
             }
          }
       },
