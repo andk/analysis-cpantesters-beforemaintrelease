@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.44.0":54823,
-      "datetime":"2026-08-17T07:05:31",
+      "5.44.0":54948,
+      "datetime":"2026-08-17T13:02:53",
       "perls":[
          "5.42.0",
          "5.44.0"
       ],
-      "totalrcdists":15750
+      "totalrcdists":15770
    },
    "!CAND":{
       "Acme-Insult-Evil":{
@@ -2032,6 +2032,17 @@
             "5.44.0":{
                "fail":1,
                "pass":5
+            }
+         }
+      },
+      "Mojolicious-Plugin-Fondation-CSRF":{
+         "0.01":{
+            "5.42.0":{
+               "pass":1
+            },
+            "5.44.0":{
+               "fail":4,
+               "pass":2
             }
          }
       },

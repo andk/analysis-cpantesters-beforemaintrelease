@@ -1,18 +1,29 @@
 {
    "!ALL":{
-      "5.40.5":4731,
-      "datetime":"2026-08-17T07:08:35",
+      "5.40.5":4840,
+      "datetime":"2026-08-17T13:06:03",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":2013
+      "totalrcdists":2066
    },
    "!CAND":{
       "Catalyst-Plugin-Session-Store-Delegate":{
          "0.06":{
             "5.40.4":{
                "pass":3
+            },
+            "5.40.5":{
+               "fail":1
+            }
+         }
+      },
+      "DBIx-Class-Async":{
+         "v1.0.5":{
+            "5.40.4":{
+               "fail":3,
+               "pass":1
             },
             "5.40.5":{
                "fail":1
@@ -126,6 +137,17 @@
             "5.40.5":{
                "fail":1,
                "pass":2
+            }
+         }
+      },
+      "Mojolicious-Plugin-Fondation-CSRF":{
+         "0.01":{
+            "5.40.4":{
+               "fail":1,
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1
             }
          }
       },
