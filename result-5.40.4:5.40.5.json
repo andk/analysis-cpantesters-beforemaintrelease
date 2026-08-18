@@ -1,29 +1,18 @@
 {
    "!ALL":{
-      "5.40.5":4970,
-      "datetime":"2026-08-18T01:09:10",
+      "5.40.5":5127,
+      "datetime":"2026-08-18T07:07:51",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":2116
+      "totalrcdists":2140
    },
    "!CAND":{
       "Catalyst-Plugin-Session-Store-Delegate":{
          "0.06":{
             "5.40.4":{
                "pass":3
-            },
-            "5.40.5":{
-               "fail":1
-            }
-         }
-      },
-      "DBIx-Class-Async":{
-         "v1.0.5":{
-            "5.40.4":{
-               "fail":3,
-               "pass":1
             },
             "5.40.5":{
                "fail":1
@@ -147,7 +136,7 @@
                "pass":1
             },
             "5.40.5":{
-               "fail":1
+               "fail":2
             }
          }
       },
