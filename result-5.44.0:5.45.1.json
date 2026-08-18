@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.1":23095,
-      "datetime":"2026-08-18T13:08:33",
+      "5.45.1":23116,
+      "datetime":"2026-08-18T19:12:08",
       "perls":[
          "5.44.0",
          "5.45.1"
       ],
-      "totalrcdists":8100
+      "totalrcdists":8104
    },
    "!CAND":{
       "Acme-MetaSyntactic-daleks":{
@@ -83,7 +83,7 @@
       "Devel-Cover":{
          "1.52":{
             "5.44.0":{
-               "pass":38
+               "pass":40
             },
             "5.45.1":{
                "fail":1,
@@ -149,7 +149,7 @@
       "File-Copy-Recursive":{
          "0.45":{
             "5.44.0":{
-               "pass":46
+               "pass":48
             },
             "5.45.1":{
                "fail":4,
