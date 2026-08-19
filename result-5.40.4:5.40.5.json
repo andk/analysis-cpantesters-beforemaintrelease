@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":5391,
-      "datetime":"2026-08-19T07:08:54",
+      "5.40.5":5443,
+      "datetime":"2026-08-19T13:08:12",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":2217
+      "totalrcdists":2224
    },
    "!CAND":{
       "Catalyst-Plugin-Session-Store-Delegate":{
@@ -46,6 +46,16 @@
             "5.40.4":{
                "fail":1,
                "pass":2
+            },
+            "5.40.5":{
+               "fail":1
+            }
+         }
+      },
+      "Digest-PBKDF2":{
+         "0.013":{
+            "5.40.4":{
+               "pass":1
             },
             "5.40.5":{
                "fail":1
