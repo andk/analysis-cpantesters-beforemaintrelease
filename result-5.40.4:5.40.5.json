@@ -1,14 +1,25 @@
 {
    "!ALL":{
-      "5.40.5":7300,
-      "datetime":"2026-08-27T01:07:42",
+      "5.40.5":7465,
+      "datetime":"2026-08-27T07:08:20",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":2725
+      "totalrcdists":2773
    },
    "!CAND":{
+      "Algorithm-AhoCorasick-XS":{
+         "0.04":{
+            "5.40.4":{
+               "fail":2
+            },
+            "5.40.5":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
       "Alien-YAMLScript":{
          "0.2.30":{
             "5.40.4":{},
