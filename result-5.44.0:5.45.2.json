@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.2":194235,
-      "datetime":"2026-08-26T19:11:19",
+      "5.45.2":194253,
+      "datetime":"2026-08-27T01:11:21",
       "perls":[
          "5.44.0",
          "5.45.2"
       ],
-      "totalrcdists":20060
+      "totalrcdists":20064
    },
    "!CAND":{
       "Acme-CPANAuthors-French":{
