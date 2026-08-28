@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":7806,
-      "datetime":"2026-08-28T07:07:33",
+      "5.40.5":7864,
+      "datetime":"2026-08-28T13:04:23",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":2840
+      "totalrcdists":2863
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -204,7 +204,8 @@
                "pass":2
             },
             "5.40.5":{
-               "fail":1
+               "fail":1,
+               "pass":1
             }
          }
       },
@@ -255,11 +256,11 @@
       "Log-Abstraction":{
          "0.33":{
             "5.40.4":{
-               "pass":2
+               "pass":3
             },
             "5.40.5":{
                "fail":1,
-               "pass":6
+               "pass":7
             }
          }
       },
