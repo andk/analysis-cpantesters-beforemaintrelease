@@ -1,21 +1,21 @@
 {
    "!ALL":{
-      "5.40.5":8065,
-      "datetime":"2026-08-29T19:08:23",
+      "5.40.5":8164,
+      "datetime":"2026-08-30T01:07:03",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":2942
+      "totalrcdists":2956
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
          "0.04":{
             "5.40.4":{
-               "fail":2
+               "fail":3
             },
             "5.40.5":{
-               "fail":2,
+               "fail":4,
                "pass":1
             }
          }
