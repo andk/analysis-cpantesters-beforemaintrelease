@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":8418,
-      "datetime":"2026-08-31T07:04:47",
+      "5.40.5":8473,
+      "datetime":"2026-08-31T13:05:05",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":3046
+      "totalrcdists":3078
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
