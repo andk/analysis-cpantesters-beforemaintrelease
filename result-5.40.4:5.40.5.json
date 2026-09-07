@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":9679,
-      "datetime":"2026-09-07T13:04:51",
+      "5.40.5":9680,
+      "datetime":"2026-09-07T19:08:41",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":3382
+      "totalrcdists":3383
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -61,7 +61,7 @@
       "App-Sqitch":{
          "v1.6.1":{
             "5.40.4":{
-               "fail":3,
+               "fail":4,
                "pass":1
             },
             "5.40.5":{
@@ -396,6 +396,7 @@
       "Net-OpenMicroBlogging":{
          "0.01":{
             "5.40.4":{
+               "fail":1,
                "pass":1
             },
             "5.40.5":{
