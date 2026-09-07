@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":9660,
-      "datetime":"2026-09-07T07:09:06",
+      "5.40.5":9679,
+      "datetime":"2026-09-07T13:04:51",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":3380
+      "totalrcdists":3382
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -390,6 +390,16 @@
             },
             "5.40.5":{
                "fail":2
+            }
+         }
+      },
+      "Net-OpenMicroBlogging":{
+         "0.01":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1
             }
          }
       },
