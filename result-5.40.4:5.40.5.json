@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":10343,
-      "datetime":"2026-09-10T13:04:15",
+      "5.40.5":10373,
+      "datetime":"2026-09-10T19:07:30",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":3563
+      "totalrcdists":3574
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -453,6 +453,17 @@
             "5.40.5":{
                "fail":1,
                "pass":3
+            }
+         }
+      },
+      "OpenSearch-PPLQuery":{
+         "1.0.0":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1,
+               "pass":2
             }
          }
       },
