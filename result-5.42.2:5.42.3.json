@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3":54463,
-      "datetime":"2026-09-10T07:06:46",
+      "5.42.3":54494,
+      "datetime":"2026-09-10T13:05:51",
       "perls":[
          "5.42.2",
          "5.42.3"
       ],
-      "totalrcdists":30642
+      "totalrcdists":30647
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -2363,6 +2363,7 @@
       "OpenTelemetry-Instrumentation-namespace":{
          "0.034":{
             "5.42.2":{
+               "fail":1,
                "pass":2
             },
             "5.42.3":{
