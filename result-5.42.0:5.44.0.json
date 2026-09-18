@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.44.0":81850,
-      "datetime":"2026-09-18T13:05:08",
+      "5.44.0":81975,
+      "datetime":"2026-09-18T19:04:05",
       "perls":[
          "5.42.0",
          "5.44.0"
       ],
-      "totalrcdists":17615
+      "totalrcdists":17622
    },
    "!CAND":{
       "Acme-Insult-Evil":{
