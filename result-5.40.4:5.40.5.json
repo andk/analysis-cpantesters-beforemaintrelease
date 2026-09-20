@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":12087,
-      "datetime":"2026-09-20T07:07:17",
+      "5.40.5":12121,
+      "datetime":"2026-09-20T13:06:33",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":4079
+      "totalrcdists":4085
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -697,6 +697,17 @@
       },
       "PayProp-API-Public-Client":{
          "1.04":{
+            "5.40.4":{
+               "fail":1
+            },
+            "5.40.5":{
+               "fail":1,
+               "pass":3
+            }
+         }
+      },
+      "Physics-Balls":{
+         "0.04":{
             "5.40.4":{
                "fail":1
             },
