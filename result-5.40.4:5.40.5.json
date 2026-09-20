@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":12121,
-      "datetime":"2026-09-20T13:06:33",
+      "5.40.5":12139,
+      "datetime":"2026-09-20T19:06:57",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":4085
+      "totalrcdists":4099
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -494,7 +494,7 @@
       "Log-Abstraction":{
          "0.33":{
             "5.40.4":{
-               "pass":5
+               "pass":6
             },
             "5.40.5":{
                "fail":1,
