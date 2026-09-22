@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":12307,
-      "datetime":"2026-09-21T19:06:39",
+      "5.40.5":12434,
+      "datetime":"2026-09-22T01:06:33",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":4140
+      "totalrcdists":4151
    },
    "!CAND":{
       "Algorithm-AhoCorasick-XS":{
@@ -907,6 +907,17 @@
             "5.40.5":{
                "fail":1,
                "pass":1
+            }
+         }
+      },
+      "WWW-Google-Cloud-Auth-ServiceAccount":{
+         "1.000002":{
+            "5.40.4":{
+               "fail":1,
+               "pass":6
+            },
+            "5.40.5":{
+               "fail":3
             }
          }
       },
