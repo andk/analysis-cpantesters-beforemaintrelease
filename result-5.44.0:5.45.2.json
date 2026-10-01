@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.45.2":263726,
-      "datetime":"2026-10-01T07:10:36",
+      "5.45.2":264597,
+      "datetime":"2026-10-01T13:09:06",
       "perls":[
          "5.44.0",
          "5.45.2"
       ],
-      "totalrcdists":33911
+      "totalrcdists":33917
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -1430,11 +1430,11 @@
       "DateTime-Format-Natural":{
          "1.27":{
             "5.44.0":{
-               "pass":16
+               "pass":22
             },
             "5.45.2":{
                "fail":1,
-               "pass":15
+               "pass":21
             }
          }
       },
