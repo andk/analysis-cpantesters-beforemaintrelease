@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":14392,
-      "datetime":"2026-10-07T01:06:25",
+      "5.40.5":14399,
+      "datetime":"2026-10-07T07:08:12",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":4943
+      "totalrcdists":4948
    },
    "!CAND":{
       "ASPEER-MakeMaker-Markdown-Pod":{
@@ -52,6 +52,16 @@
             "5.40.5":{
                "fail":1,
                "pass":1
+            }
+         }
+      },
+      "Amazon-API-Help":{
+         "1.0.3":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1
             }
          }
       },
