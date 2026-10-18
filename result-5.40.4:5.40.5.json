@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":16124,
-      "datetime":"2026-10-18T01:07:05",
+      "5.40.5":16141,
+      "datetime":"2026-10-18T07:06:40",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":5518
+      "totalrcdists":5530
    },
    "!CAND":{
       "ASPEER-MakeMaker-Markdown-Pod":{
@@ -143,6 +143,17 @@
       "App-makefilepl2cpanfile":{
          "0.05":{
             "5.40.4":{},
+            "5.40.5":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
+      "Archive-BagIt-Plugin-SHA256":{
+         "0.006":{
+            "5.40.4":{
+               "fail":1
+            },
             "5.40.5":{
                "fail":1,
                "pass":1
@@ -1163,9 +1174,11 @@
       },
       "Term-Fabulous":{
          "0.03":{
-            "5.40.4":{},
+            "5.40.4":{
+               "fail":1
+            },
             "5.40.5":{
-               "fail":1,
+               "fail":2,
                "pass":2
             }
          }
