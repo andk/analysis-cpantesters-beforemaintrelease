@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":18797,
-      "datetime":"2026-10-31T01:08:22",
+      "5.40.5":18817,
+      "datetime":"2026-10-31T07:07:07",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":6199
+      "totalrcdists":6204
    },
    "!CAND":{
       "ASPEER-MakeMaker-Markdown-Pod":{
