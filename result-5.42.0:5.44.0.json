@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.44.0":123607,
-      "datetime":"2026-11-05T13:04:44",
+      "5.44.0":123618,
+      "datetime":"2026-11-05T19:04:14",
       "perls":[
          "5.42.0",
          "5.44.0"
       ],
-      "totalrcdists":20040
+      "totalrcdists":20046
    },
    "!CAND":{
       "Acme-Free-Advice-Unsolicited":{
