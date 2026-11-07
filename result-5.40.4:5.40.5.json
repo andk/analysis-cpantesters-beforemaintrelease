@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":19853,
-      "datetime":"2026-11-07T13:06:24",
+      "5.40.5":19941,
+      "datetime":"2026-11-07T19:05:32",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":6495
+      "totalrcdists":6532
    },
    "!CAND":{
       "ASPEER-MakeMaker-Markdown-Pod":{
@@ -374,17 +374,6 @@
             "5.40.5":{
                "fail":2,
                "pass":1
-            }
-         }
-      },
-      "Class-Abstract":{
-         "0.03":{
-            "5.40.4":{
-               "pass":1
-            },
-            "5.40.5":{
-               "fail":1,
-               "pass":2
             }
          }
       },
