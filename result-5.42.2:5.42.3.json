@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.42.3":83267,
-      "datetime":"2026-11-15T13:07:12",
+      "5.42.3":83603,
+      "datetime":"2026-11-15T19:07:16",
       "perls":[
          "5.42.2",
          "5.42.3"
       ],
-      "totalrcdists":33357
+      "totalrcdists":33372
    },
    "!CAND":{
       "AI-Calibrate":{
@@ -2113,6 +2113,17 @@
             }
          }
       },
+      "File-Util-SecureDir":{
+         "v0.1.0":{
+            "5.42.2":{
+               "pass":2
+            },
+            "5.42.3":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
       "Filesys-DiskSpace":{
          "0.05":{
             "5.42.2":{
@@ -3498,11 +3509,11 @@
       "Math-Geometry-Planar-GPC-PolygonXS":{
          "0.052":{
             "5.42.2":{
-               "pass":10
+               "pass":11
             },
             "5.42.3":{
                "fail":4,
-               "pass":7
+               "pass":13
             }
          }
       },
