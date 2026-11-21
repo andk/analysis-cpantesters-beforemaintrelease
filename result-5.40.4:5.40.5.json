@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":22708,
-      "datetime":"2026-11-20T19:05:54",
+      "5.40.5":22840,
+      "datetime":"2026-11-21T01:05:43",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":7267
+      "totalrcdists":7323
    },
    "!CAND":{
       "ASPEER-MakeMaker-Markdown-Pod":{
@@ -126,7 +126,7 @@
       "Alien-RtMidi":{
          "0.12":{
             "5.40.4":{
-               "pass":5
+               "pass":6
             },
             "5.40.5":{
                "fail":3,
@@ -279,6 +279,16 @@
             }
          }
       },
+      "App-csvtool":{
+         "0.05":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1
+            }
+         }
+      },
       "App-makefilepl2cpanfile":{
          "0.05":{
             "5.40.4":{},
@@ -419,13 +429,23 @@
             }
          }
       },
+      "Catalyst-Authentication-Store-DBIx-Class":{
+         "0.1506":{
+            "5.40.4":{
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1
+            }
+         }
+      },
       "Catalyst-Plugin-Session-Store-Delegate":{
          "0.06":{
             "5.40.4":{
                "pass":3
             },
             "5.40.5":{
-               "fail":1
+               "fail":2
             }
          }
       },
@@ -490,6 +510,17 @@
             "5.40.5":{
                "fail":1,
                "pass":3
+            }
+         }
+      },
+      "Convert-Bencode_XS":{
+         "0.06":{
+            "5.40.4":{
+               "fail":7,
+               "pass":1
+            },
+            "5.40.5":{
+               "fail":1
             }
          }
       },
@@ -728,6 +759,13 @@
             "5.40.5":{
                "fail":4,
                "pass":2
+            }
+         },
+         "0.007":{
+            "5.40.4":{},
+            "5.40.5":{
+               "fail":4,
+               "pass":1
             }
          }
       },
