@@ -1,12 +1,12 @@
 {
    "!ALL":{
-      "5.40.5":23239,
-      "datetime":"2026-11-22T19:05:30",
+      "5.40.5":23277,
+      "datetime":"2026-11-23T01:05:42",
       "perls":[
          "5.40.4",
          "5.40.5"
       ],
-      "totalrcdists":7440
+      "totalrcdists":7452
    },
    "!CAND":{
       "ASPEER-MakeMaker-Markdown-Pod":{
@@ -1485,6 +1485,17 @@
       "Matplotlib-Simple":{
          "0.331":{
             "5.40.4":{},
+            "5.40.5":{
+               "fail":1,
+               "pass":1
+            }
+         }
+      },
+      "Mogura":{
+         "0.01":{
+            "5.40.4":{
+               "fail":1
+            },
             "5.40.5":{
                "fail":1,
                "pass":1
